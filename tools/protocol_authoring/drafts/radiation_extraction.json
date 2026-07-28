@@ -1,0 +1,73 @@
+{
+  "extraction_metadata": {
+    "source_file": "tools\\protocol_authoring\\source_texts\\radiation.txt",
+    "specialty_hint": "radiation",
+    "cancer_type": "breast_cancer",
+    "population_context": "india",
+    "model_used": "llama-3.3-70b-versatile",
+    "extracted_at": "2026-07-27T06:28:47.902515+00:00"
+  },
+  "extracted_definitions": [
+    {
+      "term": "TNM staging categories",
+      "definition": "T3-4, N+ cancers",
+      "valid_values": [
+        "T3",
+        "T4",
+        "N+"
+      ],
+      "source_excerpt": "post mastectomy radiotherapy in women with T3-4, N+ cancers, improve loco-regional control as well as survival",
+      "suggested_scope": "shared_definitional",
+      "scope_rationale": "TNM staging categories are a shared definitional concept that applies across multiple specialties."
+    },
+    {
+      "term": "Biomarker definitions/value sets",
+      "definition": "ER/PR+ve tumours",
+      "valid_values": [
+        "ER/PR+ve"
+      ],
+      "source_excerpt": "selected elderly women with small, node –ve, low grade, ER/PR+ve tumours with low risk of recurrence",
+      "suggested_scope": "shared_definitional",
+      "scope_rationale": "Biomarker definitions are a shared definitional concept that applies across multiple specialties."
+    }
+  ],
+  "extracted_rules": [
+    {
+      "description": "Radiotherapy dose and fractionation",
+      "condition_hint": "Standard radiotherapy regimen",
+      "action_hint": "50Gy in 25 daily fractions over 5 weeks or its equivalent hypofractionated regime",
+      "source_excerpt": "50Gy in 25 daily fractions over 5 weeks or its equivalent hypofractionated regime of 40Gy/15 fractions over 3 weeks or 42.5Gy/16# over 3 weeks",
+      "suggested_scope": "specialty_specific",
+      "scope_rationale": "This rule is specific to the radiation specialty and is not a general medical concept."
+    }
+  ],
+  "extracted_required_inputs": [
+    "Patient's cancer type",
+    "Patient's TNM staging category",
+    "Patient's biomarker status"
+  ],
+  "rejected_items": [
+    {
+      "item": {
+        "term": "Postoperative Radiotherapy",
+        "definition": "Radiotherapy given after surgery",
+        "valid_values": null,
+        "source_excerpt": "Postoperative RT using Linac or telecobalt to the breast/ chest wall with or without lymphatic areas is indicated in most cases, except after mastectomy for a DCIS or early node negative cancer.",
+        "suggested_scope": "specialty_specific",
+        "scope_rationale": "This definition is specific to the radiation specialty and is not a general medical concept."
+      },
+      "reason": "source_excerpt not found in input text"
+    },
+    {
+      "item": {
+        "description": "Indication for postoperative radiotherapy",
+        "condition_hint": "Post mastectomy for a DCIS or early node negative cancer",
+        "action_hint": "Do not indicate postoperative radiotherapy",
+        "source_excerpt": "Postoperative RT using Linac or telecobalt to the breast/ chest wall with or without lymphatic areas is indicated in most cases, except after mastectomy for a DCIS or early node negative cancer.",
+        "suggested_scope": "specialty_specific",
+        "scope_rationale": "This rule is specific to the radiation specialty and is not a general medical concept."
+      },
+      "reason": "source_excerpt not found in input text"
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+27 Consensus Document for Management of Breast Cancer
+S
+ome form of systemic therapy with either hormone therapy, chemotherapy or targeted therapy in 
+various combination and sequences is offered to almost all breast cancer patients. The choice of 
+systemic therapy and combination of systemic therapy used in modern practice is based on large 
+RCTs consisting of several thousand patients and meta-analysis and is outlined here.
+Systemic Therapy (Levels of Evidence in Parentheses) in OBC/ LOBC/LABC
+Adjuvant following surgery in OBC
+Node negative
+*Chemotherapy (1) OR
+**Only endocrine therapy (1) OR
+****Adjuvant endocrine therapy for ER and/or PR + ve after completing chemo (1)****Adjuvant endocrine therapy for ER and/or PR + ve after completing chemo (1)
+******Adjuvant trastuzumab (if feasible) after anthracycline or concurrently with taxanes in patients 
+with HER2 positive disease (1)
+***Chemotherapy (1) ****Chemotherapy ®Surgery (1)
+Node positive
+NACR# for LOBC/LABC##
+*Six cycles of an anthracycline regimen (FEC-90-100 or FAC) is a standard regimen in node negative 
+patients. Taxanes may be added in some high risk patients (high grade, triple negative or HER2 positive). 
+CMF is an option in some patients with cardiac risk and/or some elderly women
+34.The benefit of adjuvant 
+chemotherapy in node negative breast cancer, both in premenopausal and postmenopausal patients has 
+been established in large EBCTCG meta analyses. A number of risk stratification schemes such as the St 
+Gallen’s
+5 and Adjuvant Online! can be used to decide adjuvant chemotherapy. A number of tests using 
+multigene classifiers such as Recurrence Score and Mamma print are available but are yet to be validated 
+in prospective randomized studies and are expensive. Therefore their routine use for decision making 
+is not recommended. Recently IHC4 test (ER, PR, HER2 &Ki-67) has been shown to provide similar 
+information. However standardization of Ki-67 is a matter of concern for its routine use. 
+**Patients with small (<2cm), node negative, ER or PR positive, HER2 negative, low grade tumors may 
+be considered for adjuvant endocrine therapy alone
+5. Performance of a locally standardized marker of 
+proliferation such as Ki-67 can further aid in selecting low proliferative tumors in whom chemotherapy 
+may be avoided.
+***Six to eight cycles of a standard anthracycline-taxane regimen (AC/EC-paclitaxel/docetaxel, FEC-
+docetaxel, TAC, etc) is standard adjuvant chemotherapy for node positive breast cancer. Consider 
+weekly or every 2-week scheduling for paclitaxel and every 3 week scheduling for docetaxel.
+35 Docetaxel 
+CHAPTER
+8 SYSTEMIC THERAPY
+28 Consensus Document for Management of Breast Cancer
+based chemotherapy and dose dense anthracycline/paclitaxel (2 weekly) based chemotherapy should be 
+supported with prophylactic G-CSF support.
+****Anthracycline and taxane regimens are standard NACT regimens in LABC. Surgery can be 
+sandwiched between pre- and post-operative chemotherapy or in responding tumours, all chemotherapy 
+can be pre-operative, as per institutional practice.
+*****Tamoxifen for five years in pre-menopausal women is standard adjuvant endocrine therapy. Aromatase 
+inhibitor (AI) containing regimens (Tam-AI switch or 5 years of AI) constitute standard adjuvant endocrine 
+therapy in post-menopausal patients. The ATLAS trial has now established the role of tamoxifen beyond 
+5 years and this option should be offered to those with high recurrence risk (Lancet. 2013;381:805–
+816). Consider extended adjuvant therapy with letrozole after 5 years of tamoxifen in node positive post-
+menopausal women. Tamoxifen for 5 years is an acceptable alternative in post-menopausal women
+36,37.
+******Adjuvant trastuzumab, if feasible, improves outcome in patients with HER2 positive non-metastatic 
+breast cancer. As most trials have used it for 1year, this duration is considered standard as per current 
+international guidelines. However, one small trial that used adjuvant trastuzumab for 9 weeks also showed 
+a trend towards improved outcome. Therefore 9-12 weeks of adjuvant trastuzumab preferably given 
+with concurrent taxane followed by 4 cycles of anthracycline based regimen can also be considered 
+an acceptable alternative. Addition of trastuzumab to neoadjuvant chemotherapy should be considered 
+in view of improved outcome in randomized trials
+38-40. When not feasible, the use of chemotherapy 
+(preferably anthracycline based) without traztuzumab is an acceptable alternative in patients with HER2 
+over-expressing tumors.
+
+32 Consensus Document for Management of Breast Cancer
+T
+he metastatic disease may be symptomatic or asymptomatic and detected at initial  presentation 
+or during follow up. The overarching goal of managing metastatic breast cancer is to allow the 
+patient to regain and maintain the best possible quality of life and to prolong her life to the extent 
+possible. This requires careful assessment and documentation of cancer associated symptoms, previous 
+treatment history along with the nature, extent and tempo of loco-regional and metastatic disease. In 
+addition to assessing prognostic and predictive factors like ER/PR and HER2neu, patient’s physiological, 
+psychological and financial reserve and support system should also be assessed. This helps in providing 
+individualized holistic care which could range from intensive chemotherapy to only best supportive care, 
+in consultation with the patient and the family. As most Indian centres do not have a specialized palliative 
+care unit, the treating oncologist will be required to provide symptom control including pain control using 
+pharmacological and non-pharmacological approaches.
+11.1 Management algorithm (Levels of Evidence in Parentheses)
+Detailed History and physical examination including Performance Status (PS) and  co-morbidities along 
+with routine blood tests and imaging (plai n radiographs, ultrasound, CT scan, bone scan, PET-CT scan) 
+is done as appropriate
+Poor PS/significant co-morbidities
+Endocrine therapy if HR (hormone receptor) positive*
+Best supportive care
+Bone &/or soft tissue mets
+± RT to symptomatic / weight bearing sites ± Bisphosphonates ± RT if symptomatic bone mets
+Visceral mets Short DFS
+**Chemotherapy (1)
+**Chemotherapy (1)
+***± HER2-targeted therapy if HER2 positive (1)
+*Hormonal Therapy (1)
+****± Bisphosphonates (1)
+High burdenOligo-visceral metastasis
+Poor PS/Minimal or no comorbidities
+HR  +
+Hormone Refractory
+HR  -
+Document the site and extent of metastatic disease and loco-regional disease if any. Measurable lesions 
+should be specifically documented for response assessment. 
+CHAPTER
+11METASTATIC BREAST CANCER
+33 Consensus Document for Management of Breast Cancer
+Initiate counseling, pain control, medication and symptom control measures as required. Early referral to 
+palliative care unit is desirable.
+NOTES
+*Hormonal Therapy50,51,58
+Premenopausal–Tamoxifen. On progression consider ovarian suppression followed by aromatase  •
+inhibitors (AI).
+Postmenopausal - Aromatase inhibitor or Tamoxifen. On progression, tamoxifen, fulvestrant or other  •
+AI.
+**Chemotherapy
+52-55,58
+Combination chemotherapy is preferred in patients with high visceral burden and in other cases  •
+single agents can be used.
+Longer duration of chemotherapy for metastatic breast cancer is associated with modest improvement  •
+in overall and progression free survival. Chemotherapy duration should be individualized.
+Anthracyclines or taxanes are the preferred first line agents if they have not been used earlier.  •
+In anthracycline and taxane pretreated patients consider capecitabine, platinum, rechallenge with 
+taxanes including nano paclitaxel versions, vinorelbine, gemcitabine and ixabepilone.
+***HER2 Targeted therapy
+56,58
+In HER2 positive patients consider trastuzumab, lapatinib or their combination in addition to  •
+chemotherapy if it is feasible.
+****Bisphosphonates57,58
+Patients with bone metastases should be considered for regular intravenous bisphosphonates like  •
+zoledronic acid 4mg every 4 weeks with RFT monitoring.
+Mastectomy
+In patients with metastatic disease, mastectomy is considered for palliation of symptoms such as fungation 
+or bleeding, especially when locoregional disease is progressing on systemic therapy and is still resectable 
+with primary skin closure. For patients with isolated or few metastasis (oligo-metastasis), role of definitive 
+loco-regional treatment is uncertain. A recent Indian RCT has shown that locoregional treatment in such 
+patients does not improve survival (Badwe et al. Lancet Oncology, 2015). 
+Palliative Care
+In patients with metastatic disease, the patient should be referred to the palliative care unit or pain clinic 
+at the earliest. Not only this helps to achieve prompt symptom control but the quality of life is better 
+maintained with holistic care. If a specialized palliative care unit is not accessible, the treating oncologist 
+should provide comprehensive care and symptom control including pain control. Availability of morphine 
+is still an issue in some parts of the country. 
+34 Consensus Document for Management of Breast Cancer
+Palliative Radiotherapy
+Bone metastasis
+Radiotherapy along with Bisphosponates is the main stay of treatm ent for sym ptomatic bone 
+metastasis.
+For isolated or few bone metastases, the affected bones with some margins is irradiated with 8Gy single 
+fraction  at the earliest possible opportunity59.
+Fractionated radiotherapy of 20G y/5# or 30Gy/10# should be considered in patients with im pending 
+fracture or cord compression60  Established fractures in patients with at least few months of life expectancy 
+should be fixed surgically and then given postoperative RT. For patients with widely disseminated and 
+symptomatic bone metastasis in whom chemotherapy is not indicated immediately, Hemi Body Irradiation 
+(HBI) as single dose of 6Gy Upper HBI or 8Gy Lower HBI, produces excellent symptom relief 61. If both 
+Upper and Lower HBI are required, the more symptomatic half should be treated first and a gap of 4-6 
+weeks should be maintained to allow the marrow to recover. After HBI, chemotherapy should be deferred 
+for 4-6 weeks or longer to prevent severe myelosuppression. Upper HBI should be avoided in patients 
+with compromised lung function.
+Brain metastasis
+Most symptomatic patients would benefit from steroids and fractionated Whole brain RT (WBRT) 62. 
+Recommended dose is 20Gy/5#/1week or 30Gy/10#/2weeks. The MRC trial had shown that in 
+patients with poor GC and widely disseminated disease, 12Gy in 2 fractions on consecutive days (or 1 
+week apart) is comparable to 30Gy/10#/2 weeks (Priestman et al, Clin. Oncology, 1996).
+For single brain metastasis in patients with controlled prim ary and no other site of system ic disease, 
+consider surgery or radiosurgery of the brain lesion followed by whole brain radiotherapy. Recent NCCTG 
+trial (ASCO 2015) shows that in patients with 1-3 brain metastases, addition of WBRT to SRS improved 
+intracranial control without improving survival and with adverse impact on cognitive function. SRS alone 
+should be judiciously used in highly select patients.
+Spinal cord compression
+Palliative Radiotherapy (20Gy/5# or 30Gy/10#) with steroids is the mainstay of treatment. Select cases 
+with life expectancy of more than 6 months presenting with recent onset paraparesis or paraplegia 
+and limited vertebral involvement should be considered for surgical decompression prior to palliative 
+radiotherapy. 
+35 Consensus Document for Management of Breast Cancer
+H
+ereditary cancer accounts for 5% of all breast cancers and a greater proportion of ovarian 
+cancers. Germline mutations in two breast cancer susceptibility genes BRCA1 and BRCA2 
+account for over 50% of the Hereditary Breast Ovarian Cancer (HBOC) families. Mutation in 
+TP53 gene accounts for a small fraction of families, as part of Li-Fraumeni syndrome.
+Clinico-pathological features of hereditary breast cancer
+Younger age at diagnosis (1-2 decade earlier) •
+Greater propensity for multi-focal involvement •
+High probability (50%) for synchronous or metachronous bilateral breast cancer •
+BRCA1 associated breast cancers have a distinct genetic signature of Basal Type with preponderance  •
+of poorly differentiated ER, PR and HER2-ve (Triple negative) tumours.
+A genetic risk assessment and referral for genetics evaluation should be considered in:
+Early onset breast or ovarian cancer, especially if it is triple negative breast cancer •
+Personal history of bilateral breast, or bilateral ovarian cancers. •
+Personal history of primary breast and ovarian cancer in the same individual. •
+Personal history of breast or ovarian cancer, along with family history of one or more family members  •
+with breast, ovarian or some other cancer.
+A known BRCA1 or BRCA2 mutation in a blood relative. •
+Member of an ethnic community with known founder BRCA1/2 mutation. •
+Any women concerned about her hereditary cancer risk •
+Genetic Testing using BRCA1/2 gene sequencing recommended for women with strong family history of 
+early onset breast and or ovarian cancer or when the calculated probability of finding a BRCA mutation 
+is >10%8.
+There are very limited centres for comprehensive genetic counseling, genetic testing and medical 
+management of carriers in India. One such centre is the ICMR Centre for Advanced Research i n Ca ncer 
+Genet ics at ACTREC, Tata Memorial Centre in Mumbai (cgc@actrec.gov.in).
+Screening for women from HBOC families or known BRCA mutation carriers should start at the age of 
+25 years or 5 years before the youngest affected member in that family, whichever is earlier.
+Monthly breast self examination •
+Six monthly clinical breast examination •
+CHAPTER
+12HEREDITARY BREAST CANCER
+36 Consensus Document for Management of Breast Cancer
+Annual breast imaging. Due to dense breasts in these young women, clinical examination,  •
+mammography and ultrasound all have poor sensitivity. In experienced centres, MRI has much higher 
+sensitivity for detecting breast cancer in such women2.
+With no clear benefit of ovarian cancer screening with Transvaginal USG and CA-125, it is not  •
+routinely recommended.
+Cancer Prevention: The options for cancer prevention in these high-risk women include chemoprevention 
+using tomoxifen; Risk Reducing Salpingo-Oopherectomy (RRSO) and Bilateral Prophylactic Mastectomy 
+(BPM) with reconstruction. The final decision regarding the procedure undertaken is made jointly after 
+taking into consideration the patient’s wishes after providing full information regarding the 
+pros and cons 
+of the procedure. The most useful prophylactic procedure is RRSO, at the age of 35-40 years and after 
+completion of child bearing 63. This reduces the risk of ovarian cancer by 99% and of breast cancer by 
+50%.
+Clinical trials of Platinum agents and PARP inhibitors are underway for women with 
+BRCA1/2 associated 
+hereditary breast or ovarian cancer.

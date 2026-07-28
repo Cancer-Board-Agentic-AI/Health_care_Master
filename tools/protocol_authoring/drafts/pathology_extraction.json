@@ -1,0 +1,167 @@
+{
+  "extraction_metadata": {
+    "source_file": "tools\\protocol_authoring\\source_texts\\pathology.txt",
+    "specialty_hint": "pathology",
+    "cancer_type": "breast_cancer",
+    "population_context": "india",
+    "model_used": "llama-3.3-70b-versatile",
+    "extracted_at": "2026-07-27T06:48:32.409034+00:00"
+  },
+  "extracted_definitions": [
+    {
+      "term": "Tumor grade",
+      "definition": "A measure of the aggressiveness of a tumor, based on the Modified Richardson Bloom Score",
+      "valid_values": null,
+      "source_excerpt": "Tumor grade (Modified Richardson Bloom Score)",
+      "suggested_scope": "shared_definitional",
+      "scope_rationale": "Tumor grade is a widely used concept across multiple specialties, making it a shared definitional term."
+    },
+    {
+      "term": "ER/PR receptor status",
+      "definition": "The presence or absence of estrogen and progesterone receptors in a tumor, as determined by IHC or EIA",
+      "valid_values": [
+        "positive",
+        "negative"
+      ],
+      "source_excerpt": "Receptor status: ER and PR (by IHC or EIA) and HER2neu by IHC",
+      "suggested_scope": "shared_definitional",
+      "scope_rationale": "ER/PR receptor status is a widely used concept across multiple specialties, making it a shared definitional term."
+    },
+    {
+      "term": "Margin status",
+      "definition": "The presence or absence of tumor cells at the margin of a surgical specimen",
+      "valid_values": [
+        "negative",
+        "close",
+        "focal positive",
+        "gross positive"
+      ],
+      "source_excerpt": "Margin status (negative /close /focal positive /gross positive) in wide excision",
+      "suggested_scope": "shared_definitional",
+      "scope_rationale": "Margin status is a widely used concept across multiple specialties, making it a shared definitional term."
+    },
+    {
+      "term": "Lymphovascular invasion",
+      "definition": "The presence of tumor cells in lymphatic or vascular channels",
+      "valid_values": [
+        "present",
+        "absent"
+      ],
+      "source_excerpt": "Lymphovascular emboli",
+      "suggested_scope": "specialty_specific",
+      "scope_rationale": "Lymphovascular invasion is a concept specific to the pathology specialty."
+    },
+    {
+      "term": "Extensive intraductal carcinoma (EIC)",
+      "definition": "The presence of DCIS in >25% of any low power field within or outside the tumor",
+      "valid_values": [
+        "present",
+        "absent"
+      ],
+      "source_excerpt": "Presence of extensive intraductal carcinoma (EIC)*",
+      "suggested_scope": "specialty_specific",
+      "scope_rationale": "EIC is a concept specific to the pathology specialty."
+    }
+  ],
+  "extracted_rules": [
+    {
+      "description": "All specimens should be transported to the pathology lab immediately",
+      "condition_hint": "Specimen collection",
+      "action_hint": "Transport specimen to pathology lab immediately",
+      "source_excerpt": "All specimens should be transported to the pathology lab immediately",
+      "suggested_scope": "specialty_specific",
+      "scope_rationale": "This rule is specific to the pathology specialty."
+    },
+    {
+      "description": "All lumpectomies should be treated as potentially harboring cancer and should be oriented for margin evaluation",
+      "condition_hint": "Lumpectomy specimen",
+      "action_hint": "Orient specimen for margin evaluation",
+      "source_excerpt": "All lumpectomies should be treated as potentially harboring cancer and should be oriented for margin evaluation",
+      "suggested_scope": "specialty_specific",
+      "scope_rationale": "This rule is specific to the pathology specialty."
+    },
+    {
+      "description": "Close margins are to be evaluated radially",
+      "condition_hint": "Close margin",
+      "action_hint": "Evaluate margin radially",
+      "source_excerpt": "Close margins are to be evaluated radially",
+      "suggested_scope": "specialty_specific",
+      "scope_rationale": "This rule is specific to the pathology specialty."
+    },
+    {
+      "description": "Shave margins should be evaluated for further margins",
+      "condition_hint": "Shave margin",
+      "action_hint": "Evaluate for further margins",
+      "source_excerpt": "shave margins should be evaluated for further margins",
+      "suggested_scope": "specialty_specific",
+      "scope_rationale": "This rule is specific to the pathology specialty."
+    },
+    {
+      "description": "All specimens should be fixed in 10% neutral buffered formalin with pH7.2 to 7.4",
+      "condition_hint": "Specimen fixation",
+      "action_hint": "Fix specimen in 10% neutral buffered formalin with pH7.2 to 7.4",
+      "source_excerpt": "All specimens should be fixed in 10% neutral buffered formalin with pH7.2 to 7.4",
+      "suggested_scope": "shared_behavioral",
+      "scope_rationale": "This rule is a general guideline for specimen fixation, applicable across multiple specialties."
+    },
+    {
+      "description": "ER/PR estimation should be routinely performed",
+      "condition_hint": "Tumor specimen",
+      "action_hint": "Perform ER/PR estimation",
+      "source_excerpt": "ER/PR estimation should be routinely performed",
+      "suggested_scope": "specialty_specific",
+      "scope_rationale": "This rule is specific to the pathology specialty."
+    }
+  ],
+  "extracted_required_inputs": [
+    "Tumor size",
+    "Tumor type",
+    "Tumor grade",
+    "Presence of extensive intraductal carcinoma (EIC)",
+    "Lymphovascular emboli",
+    "Margin status",
+    "Number of metastatic nodes",
+    "Total axillary lymph node dissected",
+    "Receptor status: ER and PR",
+    "HER2neu status"
+  ],
+  "rejected_items": [
+    {
+      "item": {
+        "term": "HER2neu receptor status",
+        "definition": "The presence or absence of the HER2neu receptor in a tumor, as determined by IHC or FISH",
+        "valid_values": [
+          "positive",
+          "negative",
+          "equivocal"
+        ],
+        "source_excerpt": "HER2neu of 2+ on IHC is considered equivocal and this can be resolved by FISH test for gene amplification",
+        "suggested_scope": "shared_definitional",
+        "scope_rationale": "HER2neu receptor status is a widely used concept across multiple specialties, making it a shared definitional term."
+      },
+      "reason": "source_excerpt not found in input text (similarity=0.80 — low similarity to anything in source, may be fabricated)"
+    },
+    {
+      "item": {
+        "term": "Ki67",
+        "definition": "A measure of cell proliferation, as determined by Ki67/MIB1 testing",
+        "valid_values": null,
+        "source_excerpt": "Ki67 correlates with tumour grade and can provide useful additional prognostic information in low grade tumours",
+        "suggested_scope": "shared_definitional",
+        "scope_rationale": "Ki67 is a widely used concept across multiple specialties, making it a shared definitional term."
+      },
+      "reason": "source_excerpt not found in input text (similarity=0.81 — low similarity to anything in source, may be fabricated)"
+    },
+    {
+      "item": {
+        "description": "HER2neu IHC testing should ideally be done by the FDA approved Hercep test OR Ventana Her2 neu assay",
+        "condition_hint": "HER2neu testing",
+        "action_hint": "Use FDA approved Hercep test or Ventana Her2neu assay",
+        "source_excerpt": "Her2neu IHC testing should ideally be done by the FDA approved Hercep test OR Ventana Her2 neu assay",
+        "suggested_scope": "shared_definitional",
+        "scope_rationale": "This rule is a widely accepted standard for HER2neu testing, applicable across multiple specialties."
+      },
+      "reason": "source_excerpt not found in input text (similarity=0.81 — low similarity to anything in source, may be fabricated)"
+    }
+  ]
+}

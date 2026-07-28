@@ -1,0 +1,92 @@
+24 Consensus Document for Management of Breast Cancer
+Optimal management of breast cancers hinges upon standardized histopathology evaluation and 
+reporting30 .
+All specimens should be transported to the pathology lab immediately. In case a delay is expected surgeons 
+should slice specimen’s posterior aspect upwards.
+All lumpectomies should be treated as potentially harboring cancer and should be oriented for margin 
+evaluation. A six surface margin (anterior, posterior, inferior, superior, medial and lateral) is sufficient for 
+routine evaluation though more extensive sampling may result in greater margin positivity. Close margins 
+are to be evaluated radially whereas shave margins should be evaluated for further margins.
+All specimens should be fixed in 10% neutral buffered formalin with pH7.2 to 7.4. Sections for ER/
+PR/Her2neu estimation should be fixed for no less than 6 hours and no more than 72 hours before 
+processing. ASCO-CAP guidelines suggest recording the time specimen is out of patients body and 
+time specimen is fixed in formalin for validating specimen fixation. ASCO-CAP guideline state “It is the 
+responsibility of the surgeon and operating room staff or the 
+radiologist and his/her staff obtaining the 
+specimen to document the collection time, and it is the responsibility of the pathologist and laboratory 
+staff to document the fixation start time”.
+For lymph nodes, record t he number, size of largest node and number of grossly metastatic nodes. 
+One section from grossly metastatic nodes is enough. For lymph nodes>5mm in maximum size slice 
+at approximately 3mm or less perpendicular to the long axis. Lymph nodes <5mm should ideally be 
+bisected and blocked; alternatively, lymph nodes <5mm can be blocked in their entirety. Nodes should be 
+counted even on microscopy to avoid duplication of nodes during submission.
+For sentinel node, slice at 2mm interval and submit entirely. If the initial H&E stained section is negative, 
+four levels are cut. Three of these sections are stained by H&E and one randomly chosen section is 
+stained with an epithelial IHCstain.
+Sections to be taken
+Lumpectomy
+A:  Four sections from tumor all with adjacent normal breast;
+B to G: Six surface margins;
+H:  Remaining Axillary /apical nodes
+Mastectomy
+Specimens are evaluated similarly but base is the only relevant margin.
+Nipple areola and overlying skin 
+should be evaluated whenever included in specimen.
+CHAPTER
+7 HISTOPATHOLOGICAL  EVALUATION  AND REPORTING 
+25 Consensus Document for Management of Breast Cancer
+All mammographically detected lesions should be grossed under mammographic guidance. Make sure 
+to block the entire lesion so as that the size of lesions can be reconstructed microscopically. Also sample 
+margins of lesions radiologically.
+Essentials in a Histopathology report:
+Tumor size (all 3 dimensions) •
+Tumor type •
+Tumor grade (Modified Richardson Bloom Score) •
+Presence of extensive intraductal carcinoma (EIC)* •
+Lymphovascular emboli •
+Margin status (negative /close /focal positive /gross positive) in wide excision** •
+No.of metastatic nodes and total axillary lymph node dissected •
+Receptor status: ER and PR (by IHC or EIA) and HER2neu by IHC. ER and PR should be scored as  •
+described later.**
+HER2neu of 2+ on IHC is considered equivocal and this can be resolved by FISH test for gene  •
+amplification, which is considered amplified or positive if score >2.2.
+*EIC: DCIS in >25% of any low power field within or outside the tumor. It is a strong predictor of local 
+recurrence after BCT, especially if margins are positive.
+**Gross +ve cut margin: Extensive involvement of a cut margin OR >3 foci of invasive or in-situ carcinoma 
+in any inked margin. It requires revision excision or mastectomy.
+**Focal positive cut margin: 3 or less foci of invasive or in-situ carcinoma in any inked margin. It requires 
+revision surgery especially if EIC is present
+Modified Richardson Bloom grading system (Nottingham’s modification)
+Tubule Nuclear grade Mitosis/10hpf*
+Score1 >75% Small uniform nuclei, no pleomorphism 0-6
+Score2 10-75% Moderate sized nuclei with pleomorphism 7-12
+Score3 <10% Marked pleomorphism >12
+Final score 3-5=Grade I, Final Score 6-7=Grade II, Final Score 8-9=Grade III
+*Could vary with microscope.
+Grade all carcinomas, including post NACT, special types and core biopsies. •
+ER/PR estimation should be routinely performed. ERPR expression in >1% of cells is reported  •
+as positive for hormone receptors. For ER/PR estimation it is crucial to fix tissues in 10% neutral 
+buffered formalin and employ pressure cooking methods for antigen retrieval. When reporting on 
+outside referral material, if fixation procedure is not documented, poor quality of fixation, if evident, 
+should be commented. Though ASCO-CAP guidelines suggest that such samples should be rejected, 
+it is not feasible in many Indian practice settings. Including normal breast tissue along with tumor 
+section helps to asses internal control for hormone receptor and validate a given test result
+31,32.
+26 Consensus Document for Management of Breast Cancer
+Her2neu IHC testing should ideally be done by the FDA approved Hercep test OR  Ventana Her2neu  •
+assay. However these FDA approved assays are not commonly used in India due to their cost. Hence 
+before using any non validated antibody in routine practice, the laboratory should validate it either 
+with FISH or the FDA approved IHC assays. Any Her2neu IHC showing membranous staining 
+of normal breast epithelium should be reevaluated. Since patients with IHC score 3 may receive 
+Trastuzumab without FISH confirmation, strict guidelines 
+for interpretation and reporting should be 
+followed. Only a complete and crisp membrane staining without any cytoplasmic staining in >30% 
+of cells should be interpreted as score 3 or positive. Score 2 staining results in complete membrane 
+staining but in 
+<30% of cells and considered equivocal. All other staining is negative (score1/0). For 
+FISH, count non overlapping cells and select block for invasive tumor. Reject FISH if signals are non-
+uniform, background obscures interpretation, autofluorescence
+33.
+Ki67 correlates with tumour grade and can provide useful additional prognostic information in low  •
+grade tumours. Validated Ki67/MIB1 testing in node negative, small, low grade tumours can help 
+decide the need for chemotherapy in such cases.

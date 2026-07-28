@@ -1,0 +1,125 @@
+{
+  "extraction_metadata": {
+    "source_file": "tools\\protocol_authoring\\source_texts\\surgery.txt",
+    "specialty_hint": "surgery",
+    "cancer_type": "breast_cancer",
+    "population_context": "india",
+    "model_used": "llama-3.3-70b-versatile",
+    "extracted_at": "2026-07-27T06:28:18.493189+00:00"
+  },
+  "extracted_definitions": [
+    {
+      "term": "University of Southern California / Van Nuys Prognostic index (USC/VNPI)",
+      "definition": "A prognostic index that stratifies patients into high, intermediate, or low risk based on age, tumor grade, tumor size, and margin from resection",
+      "valid_values": [
+        "high risk (10-12)",
+        "intermediate risk (7-9)",
+        "low risk (4-6)"
+      ],
+      "source_excerpt": "Use of adjuvant Tamoxifen and Radiotherapy (after lumpectomy) is guided by the University of Southern California / Van Nuys Prognostic index (USC/VNPI). This stratifies a patient into high (10-12), intermediate (7-9) or low risk (4-6) based on the criteria which individually scores as 1, 2 or 3 as described below:",
+      "suggested_scope": "shared_definitional",
+      "scope_rationale": "The USC/VNPI is a widely used prognostic index that can be applied across different specialties and settings."
+    },
+    {
+      "term": "ER/PR status",
+      "definition": "The status of estrogen and progesterone receptors in the tumor",
+      "valid_values": [
+        "ER/PR +ve",
+        "ER/PR -ve"
+      ],
+      "source_excerpt": "Estrogen or Progesterone receptor status of primary or recurrent tumour or metastatic sites",
+      "suggested_scope": "shared_definitional",
+      "scope_rationale": "ER/PR status is a widely used biomarker that can be applied across different specialties and settings."
+    },
+    {
+      "term": "HER2 expression",
+      "definition": "The level of expression of the HER2 protein in the tumor",
+      "valid_values": [
+        "HER2/neu +ve"
+      ],
+      "source_excerpt": "HER-2 expression in primary or recurrent tumor or metastatic sites",
+      "suggested_scope": "shared_definitional",
+      "scope_rationale": "HER2 expression is a widely used biomarker that can be applied across different specialties and settings."
+    },
+    {
+      "term": "Whole breast reconstruction (WBR)",
+      "definition": "reconstruction of the entire breast",
+      "valid_values": null,
+      "source_excerpt": "Whole breast reconstruction (WBR) with or without nipple areolar reconstruction should be offered to motivated young women who have to undergo a mastectomy",
+      "suggested_scope": "specialty_specific",
+      "scope_rationale": "This term is specific to the surgery specialty and is not a general medical concept."
+    },
+    {
+      "term": "Partial breast reconstruction (PBR)",
+      "definition": "reconstruction of a part of the breast",
+      "valid_values": null,
+      "source_excerpt": "Partial breast reconstruction (PBR): Is indicated after upfront surgery for large tumor with micro-calcification or after NACT with unfavourable breast to tumor ratio and patient is keen on breast conservation.",
+      "suggested_scope": "specialty_specific",
+      "scope_rationale": "This term is specific to the surgery specialty and is not a general medical concept."
+    }
+  ],
+  "extracted_rules": [
+    {
+      "description": "Indication for adjuvant radiotherapy after BCT",
+      "condition_hint": "high risk of recurrence",
+      "action_hint": "post-operative radiotherapy",
+      "source_excerpt": "Post-operative RT is required after BCT in women at higher risk of recurrence as described below.",
+      "suggested_scope": "specialty_specific",
+      "scope_rationale": "The indication for adjuvant radiotherapy is specific to the surgery specialty and depends on the risk of recurrence."
+    },
+    {
+      "description": "Eligibility for BCT",
+      "condition_hint": "tumor size, multicentric disease, diffuse micro-calcification",
+      "action_hint": "breast conservation therapy",
+      "source_excerpt": "The breast conservation approach would be considered successful if it produces satisfactory cosmetic outcome and the probability of tumor control or late sequelae are not inferior to mastectomy.",
+      "suggested_scope": "specialty_specific",
+      "scope_rationale": "The eligibility for BCT is specific to the surgery specialty and depends on the tumor characteristics."
+    },
+    {
+      "description": "Offer breast reconstruction to women who are likely to have a poor cosmetic outcome after BCT or are undergoing mastectomy",
+      "condition_hint": "poor cosmetic outcome after BCT or undergoing mastectomy",
+      "action_hint": "offer breast reconstruction",
+      "source_excerpt": "Breast reconstruction: In centres with such expertise, breast reconstruction should be offered to women who are likely to have a poor cosmetic outcome after BCT or are undergoing mastectomy and not at excessive risk of local recurrence or wound complication.",
+      "suggested_scope": "specialty_specific",
+      "scope_rationale": "This rule is specific to the surgery specialty and is not a general medical concept."
+    },
+    {
+      "description": "Offer whole breast reconstruction to motivated young women who have to undergo a mastectomy",
+      "condition_hint": "motivated young women who have to undergo a mastectomy",
+      "action_hint": "offer whole breast reconstruction",
+      "source_excerpt": "Whole breast reconstruction (WBR) with or without nipple areolar reconstruction should be offered to motivated young women who have to undergo a mastectomy",
+      "suggested_scope": "specialty_specific",
+      "scope_rationale": "This rule is specific to the surgery specialty and is not a general medical concept."
+    },
+    {
+      "description": "Offer partial breast reconstruction after upfront surgery for large tumor with micro-calcification or after NACT with unfavourable breast to tumor ratio",
+      "condition_hint": "upfront surgery for large tumor with micro-calcification or after NACT with unfavourable breast to tumor ratio",
+      "action_hint": "offer partial breast reconstruction",
+      "source_excerpt": "Partial breast reconstruction (PBR): Is indicated after upfront surgery for large tumor with micro-calcification or after NACT with unfavourable breast to tumor ratio and patient is keen on breast conservation.",
+      "suggested_scope": "specialty_specific",
+      "scope_rationale": "This rule is specific to the surgery specialty and is not a general medical concept."
+    }
+  ],
+  "extracted_required_inputs": [
+    "age",
+    "menopausal status",
+    "family history of cancer",
+    "comorbidities",
+    "performance status",
+    "renal and liver function",
+    "tumor size and infiltration",
+    "nipple involvement",
+    "radiological characteristics",
+    "nodal metastasis",
+    "distant metastasis",
+    "histological features",
+    "ER/PR status",
+    "HER2 expression",
+    "breast cancer diagnosis",
+    "tumor size",
+    "micro-calcification status",
+    "breast to tumor ratio",
+    "patient motivation for breast conservation"
+  ],
+  "rejected_items": []
+}

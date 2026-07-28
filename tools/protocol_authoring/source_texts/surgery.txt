@@ -1,0 +1,221 @@
+19 Consensus Document for Management of Breast Cancer
+Management of breast cancer depends on several patient related factors, disease stage and predictive and 
+prognostic factors as outlined below
+Age1. 
+Menopausal status2. 
+Family history of cancer3. 
+Comorbidities especially pre-existing cardiac conditions and long standing poorly controlled 4. 
+hypertension, diabetes or obesity
+Performance status and adequate renal and liver function5. 
+Tumor size and infiltration of skin or chest wall6. 
+Involvement of nipple with Paget’s disease or nipple discharge7. 
+Radiological characteristics of the primary tumour – especially the nature and extent of micro-8. 
+calcification
+Site and extent of nodal metastasis9. 
+Distant metastasis if any, its site (bone only or visceral) and extent 10. 
+Histological features like grade, lymphatic invasion, resection margins and EIC11. 
+Estrogen or Progesterone receptor status of primary or recurrent tumour or metastatic sites12. 
+HER-2 expression in primary or recurrent tumor or metastatic sites13. 
+Proliferative markers and gene signature in some cases14. 
+Psycho-social and body image issues15. 
+Patients wishes 16. 
+Patients likely compliance with full treatment and follow up17. 
+Access to health care, family and social support and affordability18. 
+5.1 Management Algorithm for DCIS and DCIS with Micro-invasion
+Ductal Carcinoma In Situ (DCIS) is being increasingly diagnosed in the west due to widespread use of 
+screening mammography. The natural history of screen detected DCIS is variable and many of these will 
+not progress and may have remained clinically silent during the women’s lifetime.
+Imaging for DCIS is similar to breast cancer and takes in to account the patient’s age, breast density and 
+whether breast conservation is planned or not.
+Core Biopsy is necessary for histopathological confirmation. For impalpable lesions it should be image 
+guided biopsy and performed in centres with experience.
+CHAPTER
+5 MANAGEMENT OF BREAST CANCER
+20 Consensus Document for Management of Breast Cancer
+Surgery followed by tamoxifen is the mainstay of treatment. Post-operative RT is required after BCT in 
+women at higher risk of recurrence as described below. 
+Lumpectomy21,22 with Axillary Sampling or Sentinel Node Biopsy23 is considered for DCIS without diffuse 
+micro-calcification or multicentric disease.
+Simple mastectomy21 with or without reconstruction is performed for large or multicentric DCIS or when 
+there is diffuse micro-calcification. 
+Adjuvant treatment with Tamoxifen (for ER/PR +ve tumors) or Radiotherapy after lumpectomy reduces 
+the risk of local recurrence of DCIS and invasive cancer24-26. Tamoxifen also reduces risk of contralateral 
+DCIS and cancer. 
+Use of adjuvant Tamoxifen and Radiotherapy (after lumpectomy) is guided by the University of Southern California 
+/ Van Nuys Prognostic index (USC/VNPI). This stratifies a patient into high (10-12), intermediate (7-9) or 
+low risk (4-6) based on the criteria which individually scores as 1, 2 or 3 as described below:
+Age (>60, 40-60, <40) •
+Tumor grade & comedo necrosis (low grade, high grade without comedo necrosis, high grade with  •
+comedo necrosis)
+Tumor size ( • <1.5cm, 1.6-4cm, >4.1 cm)
+Margin from resection ( • >10mm, 1-9mm, <1mm)
+Palpable DCIS with or without micro-invasion is the most common presentation of DCIS in India. In such 
+scenario, role of adjuvant chemotherapy should be carefully considered especially in HER2/neu +ve and 
+ER/PR –ve DCIS or micro-invasive tumors
+27.
+5.2 Management Schema in Operable Breast Cancer (T1-2, N0-1, M0)
+Clinical Diagnosis of Operable Breast Cancer
+Wishes for & *Eligible for BCT Want BCT but presently NOT suitable
+Neo-Adjuvant Chemotherapy
+BCT followed by
+Adjuvant therapy
+MRM Followed by
+Adjuvant Therapy
+(>4 cm tumour in small breast)
+Reassess after 4-6 cycles for BCT
+Multicentric tumour or
+diffuse micro-calcification
+Not wanting OR Not eligible
+Histopathological confirmation and Breast Imaging as describe earlier
+Neo-Adjuvant & Adjuvant Systemic Therapy (Chemotherapy, Hormone Therapy and Biological agents): 
+Individualized as per the disease stage, menopausal status, receptor status, other prognostic or predictive 
+factors along with the tolerance, compliance, feasibility and cost-benefit aspects of a particular approach. 
+Indication, regimes and sequencing are described later in this document.
+Adjuvant Radiotherapy: Post Operative radiotherapy (usually after completion of chemotherapy) is indicated 
+in all patients undergoing BCT and after mastectomy if T3 or +ve resection margins or >3nodes. For 
+21 Consensus Document for Management of Breast Cancer
+1-3 +ve nodes, it is being increasingly considered as discussed later. Accelerated Partial Breast Irradiation 
+(APBI) with various techniques is an option for highly select cases in experienced centres. RT indications 
+and dose regimes are described later.
+*Eligibility for BCT: The breast conservation approach would be considered successful if it produces 
+satisfactory cosmetic outcome and the probability of tumor control or late sequelae are not inferior to 
+mastectomy. This requires careful evaluation and selection of cases; good quality breast imaging; wide 
+excision of primary with appropriate axillary surgery by experienced surgeons; meticulous histopathological 
+evaluation and reporting of resected specimen; quality assured technique of radiotherapy delivery to 
+standard doses and regular clinical and mammographic follow up to detect and salvage breast recurrences 
+early. This would require infrastructure, equipment (e.g. LINAC which is required 
+in >75% BCT cases) and 
+expertise. Centres with requisite facilities and expertise (sometimes shared between the referring and the 
+referral centre) should offer BCT to eligible women or if they lack such facilities refer the eligible women 
+who wish to conserve their Breasts to such centres.
+Absolute contra-Indication: Diffuse micro-calcification; multicentric tumor involving >1 quadrant; resection 
+margins +ve on repeated excisions and EIC+; serious concerns over patient’s likely compliance with RT 
+and follow up; rare syndromes of radiation hypersensitivity; previous chest/ breast RT.
+Relative contra-indication: If lump to breast size ratio precludes acceptable cosmesis even after NACT, 
+BCT with acceptable cosmetic outcome can be obtained with reconstruction or oncoplasty in expert 
+centres.
+5.3 Management Schema in Large Operable or Locally Advanced Breast Cancer
+Clinical Diagnosis of Large operable (T3, N0-1) or Locally Advanced (T3-4 any N; N2-3 any T) Breast Cancer
+Hispathological confirmation and Breast Imaging as described earlier
+Metastatic-work-up as described earlier
+Mastectomy with Primary skin closure
+Feasible
+No Response
+Assess response after 4 cycles of chemotherapy
+MRM (standard)/BCT (optional)1,2
+In responding patients, Complete all
+NACT cycles before Surgery OR
+Perform Surgery after 3-4 cycles &
+than give remaining chemotherapy
+Mastectomy OR
+2nd line chemo
+(Based on operability)
+Not Feasible
+Patient keen
+for BCTMRM
+followed
+by
+adjuvant
+therapy
+Neo-Adjuvant
+Chemotherapy (NACT)
+Completion of Chemotherapy and Adjuvant
+Hormone therapy and Radiotherapy
+No metastatic disease Metastatic Disease
+Follow relevant algorithm
+for Metalistic Breast Cancer
+22 Consensus Document for Management of Breast Cancer
+Systemic Therapy: Chemotherapy, Hormone Therapy or Biological agents are individualized as per the 
+disease stage, menopausal status, ER/ PR/Her2, other prognostic or predictive factors along with the 
+tolerance, compliance, feasibility and cost-benefit aspects of a particular approach as described later. 
+Adjuvant Radiotherapy: Post Operative radiotherapy, usually after completion of chemotherapy to all 
+LOBC /LABC patients irrespective of the type of surgery. Radiotherapy regimes described later.
+Ref: 1. Parmar V et al(2006 ) Int J Surg 4:106–114. 2. Mamounas EP et al.ASCO Breast Symp 2010. Abstract 90
+5.4 Management Schema for patients presenting after lumpectomy / excision elsewhere with or without 
+sufficient clinico-pathological information (a common presentation)
+Detailed history for the site and size of primary and features suggestive of skin involvement. •
+Clinical examination for breast scar, indurations, residual lump, skin, nodal and distant sites. •
+Review pre biopsy breast imaging films & reports if available and repeat if feasible •
+Review pathology report and blocks, if available, for tumor size, margins, type, grade, ER/PR •
+Metastatic-work-up if features of LOBC/ LABC cannot be ruled out. •
+Review T size, margins & other Clinical / Imaging features for likely pre-op status (OBC/LOBC/LABC)
+Wishes for & eligible for BCT Not wanting OR not eligible for BCT Want BCT but presently NOT suitable
+Wide excision
+has been done.
+Margins free
+Inadequate
+excision. Margins
++ve or unknown
+MRM
+followed by
+adjuvant therapy
+(e.g. Multicentric tumour or
+diffuse micro-calcification)
+(margin +ve or unknown & post Biopsy
+induration precludes cosmetically
+acceptable re-excision)
+Only
+Axillary
+dissection
+If feasible,
+Revision excision +
+Axillary dissection
+Revision excision with
+acceptable cosmesis not
+feasible due to post
+biopsy Tumour Bed
+induration/skin changes
+Adjuvant therapy (Chemo / Hormone /
+RT) as per pathological stage & features
+Neo-Adjuvant Chemotherapy
+After 3-6 cycles when induration / skin changes
+resolve, consider Revision Excision + Ax. Dissection
+in cases suitable for BCT or MRM
+Systemic Therapy: Use of chemotherapy, hormone therapy and biological agents is individualized as per 
+the disease stage, menopausal status, receptor status, other prognostic/ predictive factors & the tolerance 
+/compliance/feasibility/cost-benefit aspects of a particular approach. Indication, regimes and sequencing 
+described later in this document.
+Adjuvant Radiotherapy: Post Operative radiotherapy, usually after completion of chemotherapy to all 
+women undergoing BCT and all women undergoing mastectomy if LOBC /LABC cannot be reliably 
+ruled out. Radiotherapy fields and dose regimes are described later.
+23 Consensus Document for Management of Breast Cancer
+T
+he indications for BCT or mastectomy and its sequencing with chemotherapy are described in 
+the previous chapter on management algorithms. Indications for special surgical procedures are 
+described here. 
+Sentinel node biopsy and Axillary sampling: Several RCTs 28,29 show that in women with small tumors and 
+clinically negative axilla, the morbidity from axillary dissection done as a therapeutic or staging modality 
+can be avoided by careful histological examination of the sentinel lymph nodes identified by various 
+methods and conducting full axillary dissection only in those with positive sentinel nodes. Sentinel Node 
+Biopsy (SNB) is performed using 0.3ml sub-dermal injection of patent blue dye or 2% methylene blue 10 
+minutes prior to the surgical incision and 0.5ml of technetium–labeled sulphur colloid 2 hours prior to 
+surgery. The technique should be validated in each centre for its sensitivity and specificity before offering 
+it as a routine. Low axillary sampling, an alternative to SNB can be practiced more widely in developing 
+countries. If histological evaluation of sentinel lymph nodes or low axillary sampling does not reveal any 
+metastasis, completion axillary clearance is not warranted. However, if the SNB is positive or the paraffin 
+sections show metastasis, completion axillary clearances (Level I – III) are generally considered. There is 
+however recent EORTC-AMAROS RCT showing that in SNB + ve cases, axillary RT achieves axillary 
+control rates similar to completion axillary clearance but with different morbidity pattern (Donker et al, 
+Lancet Oncol. 2014).
+Breast reconstruction: In centres with such expertise, breast reconstruction should be offered to women 
+who are likely to have a poor cosmetic outcome after BCT or are undergoing mastectomy and not at 
+excessive risk of local recurrence or wound complication. Because of the resource constraints and optional 
+nature of this service, few centres in the country, especially in the busy public hospitals, routinely offer 
+or perform breast reconstructions for majority of the patients who may benefit from such reconstruction. 
+Hence good quality breast reconstruction services may be prioritized. 
+Whole breast reconstruction (WBR) with or without nipple areolar reconstruction should be offered to 
+motivated young women who have to undergo a mastectomy 
+for a DCIS or early breast cancer (for reasons 
+such as diffuse micro-calcification or multi-centric disease) or as a prophylactic surgery as in BRCA1 
+mutation carriers. Reconstruction could be immediate or delayed. WBR can be done with 
+pedicle flap  
+(Latissimus dorsi flap with implant or expander or a Transverse Rectus Abdominis Myocutaneous flap) 
+or as a 
+Free flap with microvascular anastomosis (Deep Inferior Epigastric perforator flap; Anterolateral 
+thigh flap or Superior Gluteal artery perforator flap)
+Partial breast reconstruction (PBR): Is indicated after upfront surgery for large tumor with micro-calcification 
+or after NACT with unfavourable breast to tumor ratio and patient is keen on breast conservation. 
+Reconstruction can be done using autogenous tissue (fat, muscle, skin and vasculature) from the back 
+(latissimus dorsi flap), abdomen or thigh as a free or pedicled flap.
+CHAPTER
+6 SURGERY FOR BREAST CANCER

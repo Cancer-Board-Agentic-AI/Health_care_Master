@@ -1,0 +1,144 @@
+{
+  "extraction_metadata": {
+    "source_file": "tools\\protocol_authoring\\source_texts\\radiology.txt",
+    "specialty_hint": "radiology",
+    "cancer_type": "breast_cancer",
+    "population_context": "india",
+    "model_used": "llama-3.3-70b-versatile",
+    "extracted_at": "2026-07-27T06:28:13.637764+00:00"
+  },
+  "extracted_definitions": [
+    {
+      "term": "Operable Breast Cancer (OBC)",
+      "definition": "T1-2, N0-1, M0",
+      "valid_values": [
+        "T1",
+        "T2",
+        "N0",
+        "N1",
+        "M0"
+      ],
+      "source_excerpt": "A) Operable Breast Cancer (OBC): T1-2, N0-1,M0",
+      "suggested_scope": "specialty_specific",
+      "scope_rationale": "This definition is specific to breast cancer staging and is not generally applicable beyond this specialty."
+    },
+    {
+      "term": "Large Operable Breast Cancer (LOBC)",
+      "definition": "T3, N0-1, M0",
+      "valid_values": [
+        "T3",
+        "N0",
+        "N1",
+        "M0"
+      ],
+      "source_excerpt": "B) Large Operable Breast Cancer (LOBC): T3, N0-1,M0",
+      "suggested_scope": "specialty_specific",
+      "scope_rationale": "This definition is specific to breast cancer staging and is not generally applicable beyond this specialty."
+    },
+    {
+      "term": "Locally Advanced Breast Cancer (LABC)",
+      "definition": "T4 or N2-3, M0",
+      "valid_values": [
+        "T4",
+        "N2",
+        "N3",
+        "M0"
+      ],
+      "source_excerpt": "C) Locally Advanced Breast Cancer (LABC): T4 or N2-3,M0",
+      "suggested_scope": "specialty_specific",
+      "scope_rationale": "This definition is specific to breast cancer staging and is not generally applicable beyond this specialty."
+    },
+    {
+      "term": "Metastatic Breast Cancer (MBC)",
+      "definition": "Any T or N stage with distant metastasis (M1)",
+      "valid_values": [
+        "M1"
+      ],
+      "source_excerpt": "D) Metastatic Breast Cancer (MBC): Any T or N stage with distant metastasis (M1)",
+      "suggested_scope": "specialty_specific",
+      "scope_rationale": "This definition is specific to breast cancer staging and is not generally applicable beyond this specialty."
+    },
+    {
+      "term": "TNM Staging System",
+      "definition": "A system for staging breast cancer based on tumor size, lymph node involvement, and metastasis",
+      "valid_values": null,
+      "source_excerpt": "The two commonly used staging system are outlined here.",
+      "suggested_scope": "shared_definitional",
+      "scope_rationale": "The TNM staging system is a widely used and standardized system for staging cancer, making it a shared definitional concept."
+    },
+    {
+      "term": "Tumor Size",
+      "definition": "Measured in centimeters",
+      "valid_values": [
+        "T1",
+        "T2",
+        "T3",
+        "T4"
+      ],
+      "source_excerpt": "T1-2: Primary Tumor size up to 5 cm without skin or chest wall involvement",
+      "suggested_scope": "shared_definitional",
+      "scope_rationale": "Tumor size is a widely used and standardized measure in oncology, making it a shared definitional concept."
+    },
+    {
+      "term": "Lymph Node Involvement",
+      "definition": "Measured by the number of involved lymph nodes",
+      "valid_values": [
+        "N0",
+        "N1",
+        "N2",
+        "N3"
+      ],
+      "source_excerpt": "N0-1: Clinically uninvolved axilla or mobile axillary nodes",
+      "suggested_scope": "shared_definitional",
+      "scope_rationale": "Lymph node involvement is a widely used and standardized measure in oncology, making it a shared definitional concept."
+    },
+    {
+      "term": "Metastasis",
+      "definition": "The presence of distant metastasis",
+      "valid_values": [
+        "M0",
+        "M1"
+      ],
+      "source_excerpt": "M0: No metastatic disease on relevant investigative work up",
+      "suggested_scope": "shared_definitional",
+      "scope_rationale": "Metastasis is a widely used and standardized concept in oncology, making it a shared definitional concept."
+    }
+  ],
+  "extracted_rules": [
+    {
+      "description": "Evaluation of a breast lump",
+      "condition_hint": "All women with a breast lump",
+      "action_hint": "Undergo a triple test comprising of clinical examination, breast imaging, and histopathology",
+      "source_excerpt": "All women with a breast lump should undergo a TRIPLE TEST comprising of 1. Clinical Examination by experienced clinician, preferably a breast surgeon. 2. Breast Imaging#: Bilateral Mammogram and or Ultrasound or MRI as appropriate. 3. Histopathology*: FNAC / Core biopsy (Ideal). Excision Biopsy/Incision biopsy if indicated.",
+      "suggested_scope": "specialty_specific",
+      "scope_rationale": "This rule is specific to breast cancer diagnosis and is not generally applicable beyond this specialty."
+    },
+    {
+      "description": "Histopathology confirmation",
+      "condition_hint": "All cases of breast cancer",
+      "action_hint": "Core biopsy is preferred, FNAC is acceptable in some cases",
+      "source_excerpt": "*HISTOPATHOLOGY CONFIRMATION: 1.  Core biopsy is preferred for all cases, especially if Neoadjuvant chemotherapy is planned (for grading and receptor status) and for guided biopsy of non-palpable lesion. Biopsy to be centered over the tumor to mark it location.",
+      "suggested_scope": "specialty_specific",
+      "scope_rationale": "This rule is specific to breast cancer diagnosis and is not generally applicable beyond this specialty."
+    }
+  ],
+  "extracted_required_inputs": [
+    "Age",
+    "Clinical examination findings",
+    "Breast imaging results",
+    "Histopathology results"
+  ],
+  "rejected_items": [
+    {
+      "item": {
+        "description": "Imaging modality for breast lesions",
+        "condition_hint": "Cystic or solid breast lesions",
+        "action_hint": "Evaluate by USG, mammography, or MRI as appropriate",
+        "source_excerpt": "# IMAGING MODALITY FOR BREAST LESIONS 1. If clinically it is a cyst: evaluate by USG. 2. If less than 30yrs and clinically benign: evaluate by USG. 3. If above 30 yrs or below 30 yrs with clinical suspicion: evaluate by Mammography+/-USG.",
+        "suggested_scope": "specialty_specific",
+        "scope_rationale": "This rule is specific to breast cancer diagnosis and is not generally applicable beyond this specialty."
+      },
+      "reason": "source_excerpt not found in input text"
+    }
+  ]
+}

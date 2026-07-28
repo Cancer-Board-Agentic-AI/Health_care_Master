@@ -1,0 +1,221 @@
+14 Consensus Document for Management of Breast Cancer
+B
+reast cancer staging is done after careful clinical evaluation and appropriate investigations as 
+described in the next chapter. The staging system has evolved over the decades from simple 
+classification of breast cancer as operable, inoperable to metastatic cancer to more detailed UICC 
+and AJCC TNM system. The two commonly used staging system are outlined here.
+PRAGMATIC CLINICAL STAGING SYSTEM
+A) Operable Breast Cancer (OBC): T1-2, N0-1,M0
+T1-2: Primary Tumor size up to 5 cm without skin or chest wall involvement 
+N0-1: Clinically uninvolved axilla or mobile axillary nodes
+M0: No metastatic disease on relevant investigative work up
+B) Large Operable Breast Cancer (LOBC): T3, N0-1,M0
+T3: Primary tumour size >5 cm without skin or chest wall involvement
+N0-1: Clinically uninvolved axilla or mobile axillary nodes
+M0: No metastatic disease on relevant investigative work up
+C)
+Locally Advanced Breast Cancer (LABC): T4 or N2-3,M0
+T4: Primary Tumor of any size but involves skin or chest wall 
+N2-3: Matted or fixed axillary nodes or supraclavicular or internal mammary nodes 
+M0: No metastatic disease on relevant investigative work up
+D)
+Metastatic Breast Cancer (MBC): Any T or N stage with distant metastasis (M1)
+TNM STAGING SYSTEM (Clinical) 
+Primary tumour
+Tx Primary tumour cannot be assessed
+Tis In Situ carcinoma
+T1 Primary Tumor size up to 2 cm without skin or chest wall involvement 
+T2 Primary Tumor size up to >2 cm up to 5 cm without skin or chest wall involvement
+T3 Primary tumour size >5 cm without skin or chest wall involvement
+T4 Primary tumour involves skin, chest wall, satellite nodules or inflammatory breast cancer
+T4a Involves chest wall
+T4b Involves skin
+T4c Involves skin and chest wall 
+T4d Inflammatory breast cancer
+Lymph nodes
+Nx Nodes cannot be assessed
+No Clinically uninvolved axilla 
+N1 Mobile ipsilateral level I or II axillary nodes
+CHAPTER
+3 STAGING AND PROGNOSTIC CRITERIA
+15 Consensus Document for Management of Breast Cancer
+N2a Matted or fixed ipsilateral axillary nodes
+N2b Ipsilateral Internal Mammary Nodes (IMN) without axillary nodes
+N3a Ipsilateral Infraclavicular lymph nodes
+N3b Ipsilateral IMN + axillary nodes 
+N3c Ipsilateral Supraclavicular nodes
+Metastasis
+M0 No metastatic disease on relevant investigative work up
+M1 Metastatic disease 
+TNM STAGING SYSTEM (Pathological) 
+Primary tumour
+pTx Primary tumour cannot be assessed
+pTis In Situ carcinoma
+pT1 Primary Tumor size up to 2 cm without skin or chest wall involvement 
+pT2 Primary Tumor size up to >2 cm up to 5 cm without skin or chest wall involvement
+pT3 Primary tumour size >5 cm without skin or chest wall involvement
+pT4 Primary tumour involves skin, chest wall, satellite nodules or inflammatory breast cancer
+pT4a Involves chest wall
+pT4b Involves skin
+pT4c Involves skin and chest wall 
+pT4d Inflammatory breast cancer
+pNx Nodes cannot be assessed
+Lymph nodes
+pNo No regional lymph node metastasis identified histologically
+pN1mi Micro-metastasis (> 0.2 mm but < 2.0 mm)
+pN1a 1-3 axillary nodes
+pN1b Ipsilateral Internal Mammary Nodes (IMN) on sentinel node biopsy without axillary nodes
+pN1c N1a + N1b
+pN2a 4-9 axillary nodes
+pN2b Clinically apparent IMN without axillary node metastasis
+pN3a ≥ 10 axillary LNs  OR  Infraclavicular  LNs involved.
+pN3b Clinically apparent IMNs + positive axillary nodes OR >3 axillary nodes + IMN only on SLN biopsy
+pN3c Ipsilateral supraclavicular lymph nodes
+Metastasis
+M0 No metastatic disease on relevant investigative work up
+M1 Metastatic disease 
+16 Consensus Document for Management of Breast Cancer
+B
+reast cancer is prone to systemic spread, the probability of which increases with tumour size, local 
+infiltration and lymph node metastasis. Some investigations are essential for clinical management, 
+especially if the desirable investigations are not feasible due to various reasons and indicated 
+against each investigation for different stages of the disease.
+OBC LOBC/LABC MBC Purpose/ Comments
+RoutineTests
+(CBC, Biochemistry)
+YES YES YES To assess fitness for anesthesia & chemotherapy
+Breast Imaging
+(see flow chart)
+YES YES *In selected 
+cases where 
+it is clinically 
+indicated
+B/LMammography: If the breast lump is 
+suspected to be malignant, especially if BCT is 
+being considered.
+USG: If cystic/ benign lesion is suspected, 
+especially in young women
+MRI: In expert centres breast MRI is useful 
+in screening or characterizing breast lump if 
+mammography is sub-optimal due to dense 
+breast (as in some young women) or prior breast 
+reconstruction. Specially useful for screening 
+young women at high risk of developing breast 
+cancer due to family history or BRCA mutation
+Cytological/ 
+Histopathological
+Confirmation of
+diagnosis
+YES YES YES
+Core biopsy: Preferred method in all cases and 
+mandatory if Neo- adjuvant systemic therapy is 
+planned for histological grading and receptor 
+status. To mark the site of the primary tumor the 
+core biopsy should be centered over the tumor.
+FNAC: is acceptable in cases with clinical and 
+mammographically evident cancer planned for 
+upfront surgery.
+Incision or Excision Biopsy: When there is high 
+clinical suspicion and repeated FNAC/core biopsy 
+are negative
+ER/ PR YES YES YES IHC (>1% tumour cells staining for ER considered 
+ER+ve)16.
+HER2 #YES #YES #YES #More relevant in cases for whom Traztuzamab 
+is feasible Standardized IHC for HER2; If IHC is 
+equivocal (2+) then FISH
+ChestX Ray YES YES YES To assess fitness for anesthesia and for staging in 
+LOBC / LABC
+17BoneScan *No ^YES ^YES *If raised Alkaline Phosphatase or bone 
+symptoms/sign
+^If Bone scan not feasible due to various logistical 
+or healthcare provision issues, perform Skeletal 
+survey, especially if symptomatic.
+CHAPTER
+4 DIAGNOSTIC EVALUATION AND STAGING WORK UP
+17 Consensus Document for Management of Breast Cancer
+17USGAbdomen *No ^YES ^YES *If abnormal LFT or suspicious symptoms / signs.
+^Not required if CT Thorax & Abdomen is being 
+performed
+17CTThorax
+/Abdomen
+*No ^YES ^YES *If abnormal LFT or suspicious symptoms / signs.
+^If CT Scan is not feasible due to various logistical 
+or healthcare provision issues, Chest X Ray and 
+USG Abdomen for staging
+FDG PET/CT Scan No #In selected cases #In selected 
+cases
+#Specially useful if standard imaging findings are 
+equivocal.
+Tumour markers
+(CA-15.3 etc)
+No No No Clinical Utility in making diagnosis and disease 
+monitoring not yet established
+Multi-gene
+Signature 
+Mammaprint and 
+Oncotype Dx
+*No Notapplicable Not 
+applicable
+Their clinical utility and added value in routine 
+practice is as yet unknown and there is very little 
+data in the Indian patients. Recently an IHC4 test 
+(ER,PR, HER2 and Ki-67) seems to provide useful 
+information and is advocated by NICE in research 
+settings
+Partly adapted from NCCN/ ESMO/ NICE practice guidelines)4-9
+4.1 EVALUATION OF A BREAST LUMP
+All women with a breast lump should undergo a TRIPLE TEST comprising of
+1. Clinical Examination by experienced clinician, preferably a breast surgeon.
+2. Breast Imaging#: Bilateral Mammogram and or Ultrasound or MRI as appropriate.
+3. Histopathology*: FNAC / Core biopsy (Ideal). Excision Biopsy/Incision biopsy if indicated.
+Based on clinical examination and appropriate breast imaging the lump can be classified as cystic or solid. 
+Based on the index of suspicion for malignancy (age, clinical finding, family history or previous breast 
+biopsy findings) solid lesions can be further characterized as likely benign or suspicious for cancer. This 
+will be the basis of their further evaluation as described below: 
+A) CYSTIC18,19: Breast Ultrasound followed by clinically guided or USG guided cyst aspiration. Women 
+with small multiple cysts or if there is clear fluid on aspiration can be observed. Cytology / histopathology 
+evaluation* is advised for cysts which are complex or hemorrhagic, refill rapidly or have a residual 
+lump.
+B) SOLID BENIGN: Should be evaluated with breast imaging# and excision biopsy if solid  
+C) SUSPICIOUS SOLID: Should be evaluated with breast imaging# and if on imaging the lump is still 
+suspicious it should be evaluated with cytology / histopathology* 
+BENIGN: Excision biopsy
+MALIGNANT: Follow relevant algorithm
+# IMAGING MODALITY FOR BREAST LESIONS
+1. If clinically it is a cyst: evaluate by USG.
+2. If less than 30yrs and cli nically benign: evaluate by USG.
+3. If above 30 yrs or below 30 yrs with clinical suspicion: evaluate by Mammography+/-USG.
+18 Consensus Document for Management of Breast Cancer
+4. While there is no defined role of routine breast MRI prior to Breast Conserving surgery20,  in centres 
+with experience in Breast MRI, it may be used in women with
+a. Premenopausal women with dense breasts & equivocal mammogram if BCT is planned.
+b. Screening high risk women due to family history or BRCA mutation8.
+c. Axillary node metastasis without clinical/mammographic evidence of breast primary.
+d. Optimal mammographic evaluation is not possible due to breast reconstruction or implants.
+*HISTOPATHOLOGY CONFIRMATION:
+1.  Core biopsy is preferred for all cases, especially if Neoadjuvant chemotherapy is planned (for grading 
+and receptor status) and for guided biopsy of non-palpable lesion. Biopsy to be centered over the 
+tumor to mark it location.
+2.  In our country with infrastructure issues, FNAC is acceptable provided multiple passes are done & 
+quality smears are prepared. On site evaluation with rapid Diff Quick Stain ensures reducing number 
+of non diagnostic FNAC’s.
+3.   For papillary tumors and intraductal carcinoma, excision biopsy for definite diagnosis.
+4. Incision/Excision Biopsy: If high clinical suspicion and repeated FNAC or core biopsies are negative.
+5. Frozen section is useful in expert centres if all above fail. Not recommended for papillary  lesions & 
+complex sclerosing lesions. 
+4.2 EVALUATION FOR NIPPLE DISCHARGE
+Based on detailed history and clinical examination, in women without any associated breast lump or 
+abnormal mammogram, further evaluation is based on the colour of the nipple discharge as described 
+below: 
+A) Galactorrhoea/White: 
+If the woman is not lactating or pregnant then serum prolactin and thyroid profile should be done and 
+reassessed
+B) Grumous/Greenish: 
+Consider a course of antibiotics if the nipple discharge is not blood stained and negative for RBC, especially 
+if it is associated with inflammation. Should be reassessed. 
+C) Serous/Yellow/Blood-stained: 
+Perform breast imaging with mammography and or USG
+1. Single duct involved: For spontaneous, profuse, blood stained discharge or presence of RBC  on 
+cytology, consider excision of the duct (Microdochectomy)  
+2. Multiple ducts involved: For profuse multiple duct involvement especially in postmenopausal women, 
+consider Hadfield’s surgery.

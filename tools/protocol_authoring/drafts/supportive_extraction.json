@@ -1,0 +1,57 @@
+{
+  "extraction_metadata": {
+    "source_file": "tools\\protocol_authoring\\source_texts\\supportive.txt",
+    "specialty_hint": "supportive",
+    "cancer_type": "breast_cancer",
+    "population_context": "india",
+    "model_used": "llama-3.3-70b-versatile",
+    "extracted_at": "2026-07-27T06:28:56.842748+00:00"
+  },
+  "extracted_definitions": [
+    {
+      "term": "Follow-up frequency",
+      "definition": "The frequency at which follow-up visits should occur",
+      "valid_values": [
+        "every 6 months",
+        "annually",
+        "every 2 years"
+      ],
+      "source_excerpt": "The follow-up frequency suggested in the first 5 years is every 6 months or earlier if any symptoms. Subsequent visits could be annual up to10 years and then 2 yearly.",
+      "suggested_scope": "specialty_specific",
+      "scope_rationale": "This definition is specific to the supportive specialty for breast cancer and outlines the recommended follow-up schedule."
+    },
+    {
+      "term": "High-risk patients",
+      "definition": "Patients with significant family history of cancer or known BRCA mutation",
+      "valid_values": null,
+      "source_excerpt": "Patients with significant family history of cancer or known BRCA mutation should be kept on lifelong 6 monthly or annual follow up",
+      "suggested_scope": "shared_definitional",
+      "scope_rationale": "This definition is related to genetic risk factors, which is a cross-cutting concern across multiple specialties."
+    }
+  ],
+  "extracted_rules": [
+    {
+      "description": "Regular follow-up visits",
+      "condition_hint": "Patient has been treated for breast cancer",
+      "action_hint": "Schedule follow-up visits according to recommended frequency",
+      "source_excerpt": "The follow-up frequency suggested in the first 5 years is every 6 months or earlier if any symptoms. Subsequent visits could be annual up to10 years and then 2 yearly.",
+      "suggested_scope": "specialty_specific",
+      "scope_rationale": "This rule is specific to the supportive specialty for breast cancer and outlines the recommended follow-up schedule."
+    },
+    {
+      "description": "No routine laboratory or radiological investigations",
+      "condition_hint": "Patient is asymptomatic",
+      "action_hint": "Do not perform routine laboratory or radiological investigations",
+      "source_excerpt": "Randomized trials 48,49 have shown that regular follow up laboratory or radiological investigations does not improve survival or quality of life hence they are not recommended.",
+      "suggested_scope": "shared_behavioral",
+      "scope_rationale": "This rule is related to the avoidance of unnecessary tests, which is a cross-cutting concern across multiple specialties."
+    }
+  ],
+  "extracted_required_inputs": [
+    "Patient's medical history",
+    "Patient's family history of cancer",
+    "Patient's BRCA mutation status",
+    "Patient's symptoms and physical condition"
+  ],
+  "rejected_items": []
+}

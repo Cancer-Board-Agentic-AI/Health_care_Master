@@ -1,0 +1,82 @@
+29 Consensus Document for Management of Breast Cancer
+P
+ostoperative RT using Linac or telecobalt to the breast/ chest wall with or without lymphatic areas 
+is indicated in most cases, except after mastectomy for a DCIS or early node negative cancer. 
+Several large RCTs have shown that post mastectomy radiotherapy in women with T3-4, N+ 
+cancers, improve loco-regional control as well as survival 41,42  Large randomized trials have also shown 
+that radiotherapy after conservative surgery is integral in achieving loco-regional control comparable to 
+mastectomy and with improved body image 43,44 . The aim is to use an appropriate technique for safely 
+giving adequate doses of radiation, equivalent to 50Gy/25#/5weeks, to control subclinical disease in 
+tissues at risk (chest wall/ breast+/-SCF).
+A. Indications for postoperative Radiotherapy
+Post Mastectomy RT (PMRT) to chest wall +/- nodal area
+>3 axillary nodes positive  •
+Any number of nodes positive after NACT •
+Clinically or Pathologically T3 or T4 Tumour  •
+Positive resection margins •
+Known residual disease in axilla •
+Initial involvement of SCF/IMC •
+For 1-3 nodes +ve, PMRT is being increasingly considered following recent EBCTCG metaanalysis  •
+(McGale et al. Lancet. 2014), which showed improvement in breast cancer specific mortality. With 
+routine use of more effective chemotherapy, the absolute benefit of PMRT in patients with 1-3 node 
++ve but smaller tumours with favourable features is likely to be less and may be individualized based 
+on age and comorbidity.
+After Breast Conservative Surgery: All cases of BCT require postoperative RT. However, RT may be 
+avoided in selected elderly women with small,  node –ve, low grade, ER/PR+ve  tumours with low risk of 
+recurrence as seen in the recent PRIME trial (Kunkler et al Lancet Oncology, 2015)
+IMC RT: RT to IMC fell into disuse after its associated excess cardiac mortality became evident.  Two 
+recent RCTs - EORTC (Poortman et al, NEJM 2015) and MA-20 (Whelan et al, NEJM 2015) evaluating 
+the role of RT to SCF plus IMC in patients with medial or central quadrant tumours or those with axillary 
+node +ve, showed a modest improvement in DFS but no difference in overall survival. Moreover, the 
+contribution of IMC RT in the very modest benefit with SCF plus IMC RT is likely to be even smaller. 
+In addition there are technical challenges in planning and delivering cardiac safe IMC RT. Hence most 
+centres around the world continue to offer IMC RT only for cases with radiological or pathological 
+evidence of IMC node involvement.
+CHAPTER
+9 RADIOTHERAPY 
+30 Consensus Document for Management of Breast Cancer
+Axilla: It is a common practice in many Indian centres to treat axilla for all node +ve cases, possibly due 
+to sub-optimal axillary surgery or histopathological evaluation in practice settings. As post-op axillary 
+RT can increase arm & shoulder morbidity, it is advocated for residual axillary disease or node +ve after  
+inadequate axillary surgery and revision surgery is not being considered for various reasons. Recently the 
+EORTC-AMAROS trial (Donker et al, Lancet Oncol. 2014) shows that in T1-2 clinically node negative 
+with sentinel node biopsy +ve, axillary RT results in excellent disease control comparable to completion 
+axillary dissection but with different morbidity pattern.
+B. Treatment Area and Technique for Radiotherapy
+1. Chest wall: Bitangential portals, isocentric or with breast cone. Bolus if skin was involved or at high 
+risk of recurrence. For left sided tumours, minimize cardiac dose with appropriate beam angulation and 
+cardiac shielding if required.
+2. Whole Breast: Bitangential portals; Isocentric, with appropriate wedges. 3DCRT or IMRT if large 
+breasts to reduce acute/late toxicity in areas of dose inhomogeneity. LINAC preferable but Telecobalt can 
+be used if  Interfiled separation is <18cm & breast is not large. Avoid cardiac dose with beam placement 
+or cardiac shielding.
+3. SCF (in axillary N+ cases or initial SCF involvement): Direct anterior portals, avoiding overlap with 
+tangents to prevent matchline fibrosis and rare occurrence of  brachial plexopathy.
+4. Axilla: When indicated, axilla can be irradiated with an anterior extended SCF field  with posterior 
+axillary boost. 
+5. IMC (in known IMC involvement): CT planned partially wide tangents or mixed electron/photon ports 
+on LINAC.
+6. Tumor Bed boost (In all cases of BCT except for DCIS and in postmenopausal women with small 
+tumors with favorable histology and-ve margins): Enface electrons, 3D CRT or in selected cases, HDR 
+brachytherapy in expert centres.
+C. Radiotherapy dose and fractionation
+50Gy in 25 daily fractions over 5 weeks or its equivalent hypofractionated regime of 40Gy/15 fractions 
+over 3 weeks or 42.5Gy/16# over 3 weeks45,46. Hypofractionated regimen is equivalent to the conventional 
+regimen in terms of disease control and survival. These hypofractionated regimens results in significantly 
+lower incidence of acute and late breast toxicity and without excess cardiac morbidity at 15 year. The 3 
+week hypofractionated regime has become the standard of care in the UK, Canada and many large volume 
+Indian centres for BCT and post mastectomy RT. For hypofractionated regimes, appropriate planning 
+should be done to minimize dose inhomogeneity and cardiac dose.
+ Tumor Bed Boost after whole breast 
+RT for BCT is given with appropriate energy electrons or 3DCRT photons to a dose of 10–16Gy with 
+2-2.5 Gy per fraction. For HDR boost a twice daily regimen of 4.5 - 5 Gy x 2  or 3.4Gy x 3 fractions.
+D. Accelerated partial breast radiation (APBI)
+This short and convenient course of RT has been tested in several large RCTs which are yet to report 
+long-term results. Hence it should be considered an investigational approach. Currently, centres with 
+experience are offering APBI to carefully select postmenopausal women with node negative, small tumors 
+with clear margins and no adverse pathological features
+47. A recent European RCT compared multicatheter 
+interstitial APBI with whole breast RT + boost in 1184 women >40 years of age with up to 3 cm tumour, 
+pNo or pNmi. It shows equivalent disease control and survival at a median follow up of 6.6 years (Strnad 
+et al, Lancet, 2015) and this was evident in all age groups above 40 years and in all tumor types. 
+E. Palliative Radiotherapy is described in the chapter of metastatic disease.

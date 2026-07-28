@@ -1,0 +1,113 @@
+{
+  "extraction_metadata": {
+    "source_file": "tools\\protocol_authoring\\source_texts\\pathology.txt",
+    "specialty_hint": "pathology",
+    "cancer_type": "breast_cancer",
+    "population_context": "india",
+    "model_used": "llama-3.3-70b-versatile",
+    "extracted_at": "2026-07-27T06:28:22.166655+00:00"
+  },
+  "extracted_definitions": [
+    {
+      "term": "HER2neu IHC score",
+      "definition": "Score 0, 1+, 2+, or 3+ based on membrane staining",
+      "valid_values": [
+        "0",
+        "1+",
+        "2+",
+        "3+"
+      ],
+      "source_excerpt": "Only a complete and crisp membrane staining without any cytoplasmic staining in >30% of cells should be interpreted as score 3 or positive. Score 2 staining results in complete membrane staining but in <30% of cells and considered equivocal. All other staining is negative (score1/0).",
+      "suggested_scope": "shared_definitional",
+      "scope_rationale": "HER2neu IHC score is a standardized definition that applies beyond this specialty."
+    },
+    {
+      "term": "Margin status",
+      "definition": "Negative, close, focal positive, or gross positive",
+      "valid_values": [
+        "negative",
+        "close",
+        "focal positive",
+        "gross positive"
+      ],
+      "source_excerpt": "Margin status (negative /close /focal positive /gross positive) in wide excision",
+      "suggested_scope": "shared_definitional",
+      "scope_rationale": "Margin status is a standardized definition that applies beyond this specialty."
+    }
+  ],
+  "extracted_rules": [
+    {
+      "description": "Specimen fixation and processing",
+      "condition_hint": "Specimen collection and fixation",
+      "action_hint": "Fix in 10% neutral buffered formalin with pH 7.2 to 7.4",
+      "source_excerpt": "All specimens should be fixed in 10% neutral buffered formalin with pH7.2 to 7.4.",
+      "suggested_scope": "specialty_specific",
+      "scope_rationale": "This rule is specific to the pathology specialty and the handling of specimens."
+    }
+  ],
+  "extracted_required_inputs": [
+    "Tumor size",
+    "Tumor type",
+    "Tumor grade",
+    "Presence of extensive intraductal carcinoma",
+    "Lymphovascular emboli",
+    "Margin status",
+    "Number of metastatic nodes",
+    "Total axillary lymph node dissected",
+    "Receptor status: ER and PR",
+    "HER2neu status"
+  ],
+  "rejected_items": [
+    {
+      "item": {
+        "term": "Tumor grade",
+        "definition": "Modified Richardson Bloom Score",
+        "valid_values": [
+          "Grade I",
+          "Grade II",
+          "Grade III"
+        ],
+        "source_excerpt": "Modified Richardson Bloom grading system (Nottingham’s modification)... Final score 3-5=Grade I, Final Score 6-7=Grade II, Final Score 8-9=Grade III",
+        "suggested_scope": "shared_definitional",
+        "scope_rationale": "Tumor grade is a standardized definition that applies beyond this specialty."
+      },
+      "reason": "source_excerpt not found in input text"
+    },
+    {
+      "item": {
+        "term": "ER/PR expression",
+        "definition": "Expression in >1% of cells is reported as positive for hormone receptors",
+        "valid_values": [
+          "positive",
+          "negative"
+        ],
+        "source_excerpt": "ERPR expression in >1% of cells is reported as positive for hormone receptors.",
+        "suggested_scope": "shared_definitional",
+        "scope_rationale": "ER/PR expression is a standardized definition that applies beyond this specialty."
+      },
+      "reason": "source_excerpt not found in input text"
+    },
+    {
+      "item": {
+        "description": "ER/PR estimation",
+        "condition_hint": "Tissue fixation and processing",
+        "action_hint": "Fix tissues in 10% neutral buffered formalin and employ pressure cooking methods for antigen retrieval",
+        "source_excerpt": "ER/PR estimation should be routinely performed. ERPR expression in >1% of cells is reported as positive for hormone receptors. For ER/PR estimation it is crucial to fix tissues in 10% neutral buffered formalin and employ pressure cooking methods for antigen retrieval.",
+        "suggested_scope": "specialty_specific",
+        "scope_rationale": "This rule is specific to the pathology specialty and the estimation of ER/PR expression."
+      },
+      "reason": "source_excerpt not found in input text"
+    },
+    {
+      "item": {
+        "description": "HER2neu IHC testing",
+        "condition_hint": "HER2neu IHC score",
+        "action_hint": "Use FDA-approved Hercep test or Ventana Her2neu assay, or validate non-validated antibody with FISH or FDA-approved IHC assays",
+        "source_excerpt": "Her2neu IHC testing should ideally be done by the FDA approved Hercep test OR Ventana Her2neu assay. However these FDA approved assays are not commonly used in India due to their cost. Hence before using any non validated antibody in routine practice, the laboratory should validate it either with FISH or the FDA approved IHC assays.",
+        "suggested_scope": "specialty_specific",
+        "scope_rationale": "This rule is specific to the pathology specialty and the testing of HER2neu IHC."
+      },
+      "reason": "source_excerpt not found in input text"
+    }
+  ]
+}

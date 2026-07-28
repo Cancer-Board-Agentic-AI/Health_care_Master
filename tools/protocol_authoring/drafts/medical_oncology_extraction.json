@@ -1,0 +1,146 @@
+{
+  "extraction_metadata": {
+    "source_file": "tools\\protocol_authoring\\source_texts\\medical_oncology.txt",
+    "specialty_hint": "medical_oncology",
+    "cancer_type": "breast_cancer",
+    "population_context": "india",
+    "model_used": "llama-3.3-70b-versatile",
+    "extracted_at": "2026-07-27T06:28:37.861832+00:00"
+  },
+  "extracted_definitions": [
+    {
+      "term": "ER and/or PR + ve",
+      "definition": "Estrogen receptor and/or progesterone receptor positive",
+      "valid_values": null,
+      "source_excerpt": "****Adjuvant endocrine therapy for ER and/or PR + ve after completing chemo (1)",
+      "suggested_scope": "shared_definitional",
+      "scope_rationale": "This definition is related to biomarker values, which are a cross-specialty concern."
+    },
+    {
+      "term": "HER2 positive",
+      "definition": "Human epidermal growth factor receptor 2 positive",
+      "valid_values": null,
+      "source_excerpt": "******Adjuvant trastuzumab (if feasible) after anthracycline or concurrently with taxanes in patients with HER2 positive disease (1)",
+      "suggested_scope": "shared_definitional",
+      "scope_rationale": "This definition is related to biomarker values, which are a cross-specialty concern."
+    },
+    {
+      "term": "High risk patients",
+      "definition": "Patients with high grade, triple negative or HER2 positive disease",
+      "valid_values": null,
+      "source_excerpt": "Taxanes may be added in some high risk patients (high grade, triple negative or HER2 positive).",
+      "suggested_scope": "specialty_specific",
+      "scope_rationale": "This definition is specific to breast cancer treatment and may not apply to other specialties."
+    },
+    {
+      "term": "BRCA1/2 mutation",
+      "definition": "A genetic mutation in the BRCA1 or BRCA2 gene that increases the risk of breast and ovarian cancer",
+      "valid_values": null,
+      "source_excerpt": "A known BRCA1 or BRCA2 mutation in a blood relative.",
+      "suggested_scope": "shared_definitional",
+      "scope_rationale": "This definition is a cross-cutting concept that applies to multiple specialties, including genetics and oncology."
+    }
+  ],
+  "extracted_rules": [
+    {
+      "description": "Adjuvant endocrine therapy for ER and/or PR + ve breast cancer",
+      "condition_hint": "ER and/or PR + ve breast cancer",
+      "action_hint": "Offer adjuvant endocrine therapy",
+      "source_excerpt": "****Adjuvant endocrine therapy for ER and/or PR + ve after completing chemo (1)",
+      "suggested_scope": "specialty_specific",
+      "scope_rationale": "This rule is specific to breast cancer treatment and may not apply to other specialties."
+    },
+    {
+      "description": "Adjuvant trastuzumab for HER2 positive breast cancer",
+      "condition_hint": "HER2 positive breast cancer",
+      "action_hint": "Offer adjuvant trastuzumab",
+      "source_excerpt": "******Adjuvant trastuzumab (if feasible) after anthracycline or concurrently with taxanes in patients with HER2 positive disease (1)",
+      "suggested_scope": "specialty_specific",
+      "scope_rationale": "This rule is specific to breast cancer treatment and may not apply to other specialties."
+    },
+    {
+      "description": "Genetic risk assessment and referral for genetics evaluation should be considered in certain cases",
+      "condition_hint": "Early onset breast or ovarian cancer, personal history of bilateral breast or ovarian cancers, etc.",
+      "action_hint": "Consider genetic risk assessment and referral for genetics evaluation",
+      "source_excerpt": "A genetic risk assessment and referral for genetics evaluation should be considered in: Early onset breast or ovarian cancer, especially if it is triple negative breast cancer • Personal history of bilateral breast, or bilateral ovarian cancers. • Personal history of primary breast and ovarian cancer in the same individual.",
+      "suggested_scope": "specialty_specific",
+      "scope_rationale": "This rule is specific to the medical_oncology specialty and requires clinical judgment."
+    },
+    {
+      "description": "Screening for women from HBOC families or known BRCA mutation carriers",
+      "condition_hint": "Women from HBOC families or known BRCA mutation carriers",
+      "action_hint": "Start screening at the age of 25 years or 5 years before the youngest affected member in that family",
+      "source_excerpt": "Screening for women from HBOC families or known BRCA mutation carriers should start at the age of 25 years or 5 years before the youngest affected member in that family, whichever is earlier.",
+      "suggested_scope": "specialty_specific",
+      "scope_rationale": "This rule is specific to the medical_oncology specialty and requires clinical judgment."
+    }
+  ],
+  "extracted_required_inputs": [
+    "ER and/or PR status",
+    "HER2 status",
+    "Node status",
+    "Tumor size",
+    "Tumor grade",
+    "Family history of breast or ovarian cancer",
+    "Personal history of breast or ovarian cancer",
+    "Age of diagnosis",
+    "BRCA1/2 mutation status"
+  ],
+  "rejected_items": [
+    {
+      "item": {
+        "term": "Node negative",
+        "definition": "No cancer found in the lymph nodes",
+        "valid_values": null,
+        "source_excerpt": "Node negative *Chemotherapy (1) OR *Only endocrine therapy (1)",
+        "suggested_scope": "shared_definitional",
+        "scope_rationale": "This definition is related to cancer staging, which is a cross-specialty concern."
+      },
+      "reason": "source_excerpt not found in input text"
+    },
+    {
+      "item": {
+        "term": "Node positive",
+        "definition": "Cancer found in the lymph nodes",
+        "valid_values": null,
+        "source_excerpt": "Node positive *Six to eight cycles of a standard anthracycline-taxane regimen (AC/EC-paclitaxel/docetaxel, FEC-docetaxel, TAC, etc) is standard adjuvant chemotherapy for node positive breast cancer.",
+        "suggested_scope": "shared_definitional",
+        "scope_rationale": "This definition is related to cancer staging, which is a cross-specialty concern."
+      },
+      "reason": "source_excerpt not found in input text"
+    },
+    {
+      "item": {
+        "term": "Hereditary Breast Ovarian Cancer (HBOC)",
+        "definition": "A condition where germline mutations in two breast cancer susceptibility genes BRCA1 and BRCA2 account for over 50% of the families",
+        "valid_values": null,
+        "source_excerpt": "Hereditary cancer accounts for 5% of all breast cancers and a greater proportion of ovarian cancers. Germline mutations in two breast cancer susceptibility genes BRCA1 and BRCA2 account for over 50% of the Hereditary Breast Ovarian Cancer (HBOC) families.",
+        "suggested_scope": "shared_definitional",
+        "scope_rationale": "This definition is a structural concept that applies beyond the medical_oncology specialty."
+      },
+      "reason": "source_excerpt not found in input text"
+    },
+    {
+      "item": {
+        "term": "Triple negative breast cancer",
+        "definition": "A type of breast cancer that is ER, PR, and HER2-ve",
+        "valid_values": null,
+        "source_excerpt": "BRCA1 associated breast cancers have a distinct genetic signature of Basal Type with preponderance of poorly differentiated ER, PR and HER2-ve (Triple negative) tumours.",
+        "suggested_scope": "shared_definitional",
+        "scope_rationale": "This definition is a structural concept that applies beyond the medical_oncology specialty."
+      },
+      "reason": "source_excerpt not found in input text"
+    },
+    {
+      "item": {
+        "description": "Adjuvant chemotherapy for node negative breast cancer",
+        "condition_hint": "Node negative breast cancer",
+        "action_hint": "Offer adjuvant chemotherapy",
+        "source_excerpt": "Node negative *Chemotherapy (1) OR *Only endocrine therapy (1)",
+        "suggested_scope": "specialty_specific",
+        "scope_rationale": "This rule is specific to breast cancer treatment and may not apply to other specialties."
+      },
+      "reason": "source_excerpt not found in input text"
+    }
+  ]
+}
