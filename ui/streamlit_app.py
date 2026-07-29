@@ -33,7 +33,9 @@ def _compact(items: list[str], limit: int = 2) -> str:
     return "<br>".join(f"• {item}" for item in values) or "—"
 
 
-def _agent_card(name: str, result: dict | None = None, error: str = "") -> str:
+def _agent_card(
+    name: str, result: dict | None = None, error: str = "", phase: str = "initial",
+) -> str:
     icon, label = SPECIALISTS[name]
     if error:
         status, status_class, body = "Needs review", "error", html.escape(error)
@@ -41,7 +43,13 @@ def _agent_card(name: str, result: dict | None = None, error: str = "") -> str:
         status, status_class, body = "Analysing…", "working", "Reviewing the case in parallel"
     else:
         confidence = float(result.get("confidence", 0) or 0)
-        status, status_class = f"Complete · {confidence:.0%}", "complete"
+        if phase == "deliberating":
+            status, status_class = "Reviewing peer opinions…", "working"
+        elif phase in {"deliberation", "evidence_review"}:
+            label = "Evidence-reviewed" if phase == "evidence_review" else "Deliberated"
+            status, status_class = f"{label} · {confidence:.0%}", "complete"
+        else:
+            status, status_class = f"Initial opinion · {confidence:.0%}", "complete"
         reasoning = html.escape(str(result.get("reasoning", ""))[:500]) or "—"
         body = (
             f'<div class="agent-label">Findings</div>{_compact(result.get("key_findings", []))}'
@@ -213,7 +221,7 @@ if question:
             slot.markdown(_agent_card(name), unsafe_allow_html=True)
 
         status_placeholder = st.empty()
-        status_placeholder.caption("Six specialists are reviewing the case in parallel…")
+        status_placeholder.caption("Six specialists are reviewing the case with model-safe concurrent scheduling…")
         final_answer = ""
         final_state: dict = {}
         try:
@@ -225,20 +233,41 @@ if question:
                 )
             else:
                 stream_request = dict(url=f"{API_URL}/ask/stream", json={"question": question.strip(), "model": model})
-            completed = 0
-            with httpx.stream("POST", timeout=600, **stream_request) as response:
+            initial_results: dict[str, dict] = {}
+            deliberated: set[str] = set()
+            with httpx.stream("POST", timeout=900, **stream_request) as response:
                 response.raise_for_status()
                 for line in response.iter_lines():
                     if not line.startswith("data: "):
                         continue
                     event = json.loads(line[len("data: "):])
                     if event["type"] == "agent" and event["name"] in agent_slots:
-                        agent_slots[event["name"]].markdown(
-                            _agent_card(event["name"], event.get("result") or {}),
+                        name = event["name"]
+                        phase = event.get("phase", "initial")
+                        result = event.get("result") or {}
+                        agent_slots[name].markdown(
+                            _agent_card(name, result, phase=phase),
                             unsafe_allow_html=True,
                         )
-                        completed += 1
-                        status_placeholder.caption(f"{completed}/6 specialist assessments complete")
+                        if phase == "initial":
+                            initial_results[name] = result
+                            status_placeholder.caption(
+                                f"Initial opinions: {len(initial_results)}/6 complete"
+                            )
+                            if len(initial_results) == len(SPECIALISTS):
+                                for peer_name, peer_result in initial_results.items():
+                                    agent_slots[peer_name].markdown(
+                                        _agent_card(peer_name, peer_result, phase="deliberating"),
+                                        unsafe_allow_html=True,
+                                    )
+                                status_placeholder.caption(
+                                    "All initial opinions complete · cross-specialty deliberation in progress…"
+                                )
+                        else:
+                            deliberated.add(name)
+                            status_placeholder.caption(
+                                f"Deliberated opinions: {len(deliberated)}/6 complete"
+                            )
                     elif event["type"] == "error":
                         status_placeholder.error(event["message"])
                     elif event["type"] == "done":

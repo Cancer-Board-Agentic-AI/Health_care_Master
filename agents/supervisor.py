@@ -6,7 +6,7 @@ from agents.common import run_specialty_agent
 from agents.consensus import aggregate, compute_index, consensus, is_low_consensus
 from agents.protocols import protocol_context
 from agents.report import report
-from agents.specialty import SPECIALIST_NODES, SPECIALISTS
+from agents.specialty import DELIBERATION_NODES, SPECIALIST_NODES, SPECIALISTS, peer_dossier
 from agents.types import ClinicalState
 from config.settings import get_settings
 from rag.retriever import retrieve
@@ -48,6 +48,7 @@ def evidence_retrieval(state: ClinicalState) -> dict:
         refreshed = run_specialty_agent(
             role, state["question"], state.get("model"),
             protocol=protocol_context(specialty), context=context,
+            peer_context=peer_dossier(state, specialty),
         )
         refreshed["citations"] = list(dict.fromkeys(
             [*refreshed["citations"], *(item.citation for item in evidence)]
@@ -64,33 +65,43 @@ def _route_after_consensus(state: ClinicalState) -> str:
 
 
 def build_graph():
-    """Chair -> 6 specialists (parallel) -> aggregate -> consensus
-    -> [low? retrieve -> re-aggregate] -> report."""
+    """Chair -> parallel independent opinions -> shared cross-review -> consensus.
+
+    Every specialist first assesses the case without anchoring on peers. After all six
+    report, every member receives the complete transcript and revises its opinion in a
+    parallel deliberation round. Only those revised opinions feed consensus and the Chair.
+    """
     graph = StateGraph(ClinicalState)
 
     graph.add_node("chair", chair)
     for specialty, node in SPECIALIST_NODES.items():
         graph.add_node(f"{specialty}_agent", node)
+    graph.add_node("initial_aggregate_node", aggregate)
+    for specialty, node in DELIBERATION_NODES.items():
+        graph.add_node(f"{specialty}_deliberation_agent", node)
     graph.add_node("aggregate_node", aggregate)
     graph.add_node("consensus_node", consensus)
     graph.add_node("evidence_retrieval_node", evidence_retrieval)
     graph.add_node("report_node", report)
 
-    # L1 intake first
     graph.add_edge(START, "chair")
-    # fan-out to all six board members
+
+    # Round 1: independent parallel opinions.
     for specialty in SPECIALISTS:
         graph.add_edge("chair", f"{specialty}_agent")
-        graph.add_edge(f"{specialty}_agent", "aggregate_node")
-    # synthesise -> score
+        graph.add_edge(f"{specialty}_agent", "initial_aggregate_node")
+
+    # Round 2: each member sees the complete Round-1 transcript and revises in parallel.
+    for specialty in SPECIALISTS:
+        graph.add_edge("initial_aggregate_node", f"{specialty}_deliberation_agent")
+        graph.add_edge(f"{specialty}_deliberation_agent", "aggregate_node")
+
     graph.add_edge("aggregate_node", "consensus_node")
-    # L4 -> decide: retrieve more evidence, or finish
     graph.add_conditional_edges(
         "consensus_node",
         _route_after_consensus,
         {"retrieve": "evidence_retrieval_node", "report": "report_node"},
     )
-    # after retrieval, re-aggregate and re-score (loop guarded by MAX_RETRIEVAL_ROUNDS)
     graph.add_edge("evidence_retrieval_node", "aggregate_node")
     graph.add_edge("report_node", END)
     return graph.compile()
@@ -108,10 +119,17 @@ def _initial_state(question: str, model: str | None, image_base64: str,
     }
 
 
+def _execution_config() -> dict:
+    """Limit concurrent 27B generations so Ollama does not queue them past timeout."""
+    parallelism = int(get_settings().models.get("max_parallel_agents", 2))
+    return {"max_concurrency": max(1, parallelism)}
+
+
 def answer(question: str, model: str | None = None, image_base64: str = "",
            image_mime_type: str = "", vision_model: str | None = None) -> ClinicalState:
     return build_graph().invoke(
-        _initial_state(question, model, image_base64, image_mime_type, vision_model)
+        _initial_state(question, model, image_base64, image_mime_type, vision_model),
+        config=_execution_config(),
     )
 
 
@@ -129,7 +147,7 @@ def stream_answer(question: str, model: str | None = None, image_base64: str = "
     final_state: dict = dict(state)
     try:
         # stream_mode="updates" yields {node_name: {returned channel updates}}
-        for update in graph.stream(state):
+        for update in graph.stream(state, config=_execution_config()):
             for _node, delta in update.items():
                 if not isinstance(delta, dict):
                     continue
@@ -137,7 +155,19 @@ def stream_answer(question: str, model: str | None = None, image_base64: str = "
                 # emit one event per specialty as it reports
                 for specialty in SPECIALISTS:
                     if specialty in delta:
-                        yield {"type": "agent", "name": specialty, "result": delta[specialty]}
+                        phase = (
+                            "deliberation"
+                            if _node.endswith("_deliberation_agent")
+                            else "evidence_review"
+                            if _node == "evidence_retrieval_node"
+                            else "initial"
+                        )
+                        yield {
+                            "type": "agent",
+                            "name": specialty,
+                            "phase": phase,
+                            "result": delta[specialty],
+                        }
         yield {"type": "done", "answer": final_state.get("report", ""), "state": final_state}
     except Exception as exc:  # noqa: BLE001 - surface any failure to the UI
         yield {"type": "error", "message": f"{type(exc).__name__}: {exc}"}

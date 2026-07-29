@@ -33,7 +33,10 @@ _EMPTY: AgentResult = {
 }
 
 
-def run_specialty_agent(role: str, question: str, model: str | None = None, protocol: str = "", context: str = "") -> AgentResult:
+def run_specialty_agent(
+    role: str, question: str, model: str | None = None, protocol: str = "",
+    context: str = "", peer_context: str = "",
+) -> AgentResult:
     """Run one virtual tumor-board member and return its structured assessment.
 
     The framing is deliberately non-deferring: the agent is a board member
@@ -57,6 +60,15 @@ SPECIALTY PROTOCOL:
 
 RETRIEVED LOCAL EVIDENCE:
 {context or 'None retrieved.'}
+
+TUMOR-BOARD PEER REVIEW:
+{peer_context or 'Initial independent assessment: peer opinions are not available yet.'}
+
+{("This is the DELIBERATION ROUND. Review every peer opinion, identify agreements and conflicts "
+  "relevant to your specialty, and return a complete revised assessment. In reasoning, briefly state "
+  "which peer findings changed or confirmed your recommendation. Do not merely repeat your first opinion."
+  if peer_context else
+  "This is the INITIAL ROUND. Form an independent specialty opinion before seeing other members' views.")}
 
 Return ONLY valid JSON exactly shaped as: {SCHEMA}. Confidence is a number from 0 to 1."""
 

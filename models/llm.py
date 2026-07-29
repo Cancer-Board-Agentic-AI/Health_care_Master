@@ -16,6 +16,7 @@ def get_llm(model_name: str | None = None, *, json_output: bool = True) -> ChatO
         "base_url": os.getenv("OLLAMA_BASE_URL", settings.models["ollama_base_url"]),
         "temperature": settings.models["temperature"],
         "client_kwargs": {"timeout": settings.models["request_timeout_s"]},
+        "num_predict": settings.models.get("max_output_tokens", 1024),
     }
     if json_output:
         options["format"] = "json"

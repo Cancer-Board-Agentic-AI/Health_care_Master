@@ -16,7 +16,9 @@ models:
   ollama_base_url: http://localhost:11434
   temperature: 0.1
   # Fail a stuck agent fast instead of blocking the whole response indefinitely.
-  request_timeout_s: 120
+  request_timeout_s: 300
+  max_parallel_agents: 2
+  max_output_tokens: 1024
 rag:
   persist_directory: knowledge/vectorstore
   collection_name: medical_knowledge
