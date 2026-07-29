@@ -1,0 +1,28 @@
+app:
+  name: Local Medical AI
+  database_path: knowledge/medical_ai.sqlite3
+  upload_dir: knowledge/uploads
+  sample_pdf_dir: knowledge/pdfs
+  chat_log_path: knowledge/chat_eval_log.jsonl
+  log_level: INFO
+models:
+  # One local medical multimodal model family for text reasoning and image analysis.
+  # The DGX default is 27B; use 4B when VRAM is constrained.
+  primary: medgemma:27b
+  fallback: medgemma:4b
+  medical: medgemma:27b
+  vision: medgemma:27b
+  embedding: BAAI/bge-large-en-v1.5
+  ollama_base_url: http://localhost:11434
+  temperature: 0.1
+  # Fail a stuck agent fast instead of blocking the whole response indefinitely.
+  request_timeout_s: 120
+rag:
+  persist_directory: knowledge/vectorstore
+  collection_name: medical_knowledge
+  chunk_size: 900
+  chunk_overlap: 150
+  top_k: 5
+  eval_log_path: knowledge/rag_eval_log.jsonl
+safety:
+  emergency_terms: [chest pain, difficulty breathing, shortness of breath, stroke, seizure, unconscious, severe bleeding, suicidal, anaphylaxis]

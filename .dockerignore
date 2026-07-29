@@ -1,0 +1,5 @@
+__pycache__/
+.pytest_cache/
+knowledge/vectorstore/
+knowledge/uploads/
+*.sqlite3

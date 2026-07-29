@@ -1,2 +1,24 @@
 .env
 **/.env
+
+# Environment and local secrets
+.env.*
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Python and notebook caches
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+**/.ipynb_checkpoints/
+
+# Local tool/editor settings
+.claude/
+
+# Runtime-generated clinical data and indexes
+knowledge/uploads/
+knowledge/vectorstore/
+knowledge/*.sqlite3
+knowledge/*_log.jsonl
